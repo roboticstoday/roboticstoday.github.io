@@ -1,0 +1,26 @@
+<personnel> 
+    <person>
+        <name>Jeanette Bohg</name>
+        <affliation>Stanford</affliation>
+        <website>https://web.stanford.edu/~bohg/</website>
+        <picLink>jeanette_bohg.jpg</picLink>
+    </person>
+    <person>
+        <name>Luca Carlone</name>
+        <affliation>MIT</affliation>
+        <website>https://lucacarlone.mit.edu/</website>
+        <picLink>luca_carlone.jpg</picLink>
+    </person>
+    <person>
+        <name>Marco Pavone</name>
+        <affliation>Stanford</affliation>
+        <website>https://web.stanford.edu/~pavone/</website>
+        <picLink>marco_pavone.jpg</picLink>
+    </person>
+    <person>
+        <name>Alberto Rodriguez</name>
+        <affliation>MIT</affliation>
+        <website>https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU</website>
+        <picLink>alberto_rodriguez.jpg</picLink>
+    </person>
+</personnel>

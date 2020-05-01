@@ -1,0 +1,122 @@
+/* General Page Look */
+body {
+       padding: 0px;
+       margin: 0px;
+       background-color: #FFFFFF; /* background-color: #000000;*/
+       text-align: center;
+       font-size: 14px;
+       font-family: Arial, Helvetica, sans-serif; /*Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;*/
+       color: #FFFFFF;
+	   /*Make background white, fades into to blue*/
+}
+
+#title {
+       background-color: #FFFFFF;
+       color: #a61038;
+       text-align: left;
+}
+
+#title a{
+	color: #a61038;
+	text-decoration: none;
+}
+
+#content {
+       overflow: hidden;
+       clear: both;
+       float: left;
+       margin: 0.5% 0% 1% 15%;
+       width: 70%;
+       background-color: #FFFFFF; /*grey #8D8D8D*/
+       text-align: left;
+       padding: 0px;
+       color: #000000;
+}
+
+
+#centerContentContainer {
+       background-color: inherit;
+       text-align: left;
+       color: #000000;
+       width:100%;
+       position: relative;
+       font-size: 18px;
+}
+
+#centerContentContainer a {
+	color: #a61038; 
+	text-decoration: none;
+}
+
+#footer_txt {
+    text-align: center;
+}
+
+#footer_txt a {
+    color: #a61038;
+    text-decoration: none;
+}
+
+/* People display section */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.row img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 2px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* Speakers */
+.seminar {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.seminar img {
+    margin-right: 15px;
+    float: left;
+}
+
+.seminar iframe {
+    margin-right: 15px;
+    float: left;
+}
+
+
+.seminar h3,
+.seminar p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
