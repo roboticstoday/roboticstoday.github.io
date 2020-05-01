@@ -1,3 +1,3 @@
-EI Website
+Robotics Today Website
 
-Located at: http://ei.csail.mit.edu/
+Located at: https://roboticstoday.github.io/
