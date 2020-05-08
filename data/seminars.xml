@@ -1,23 +1,43 @@
 <events> 
-            
     <talk>
-        <speaker>Person Name</speaker>
-        <affliation>School</affliation>
-        <date>8 May 2020</date>
-        <title>Talk Title</title>
-        <abstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac nunc auctor est auctor posuere elementum a ipsum. Fusce malesuada ligula ac rutrum hendrerit. Vivamus egestas ipsum vel quam commodo auctor. Sed placerat elementum consequat. Vivamus non ullamcorper nisi, sed consequat dolor. Praesent rhoncus, nisl vitae rutrum faucibus, tellus diam pretium nisi, in sollicitudin nunc dolor quis tortor. Quisque nec varius lectus. Aenean ac purus iaculis nunc volutpat congue ornare sit amet dolor. Quisque ac mollis neque. Nunc ac dui nunc.</abstract>
-        <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac nunc auctor est auctor posuere elementum a ipsum. Fusce malesuada ligula ac rutrum hendrerit. Vivamus egestas ipsum vel quam commodo auctor. Sed placerat elementum consequat. Vivamus non ullamcorper nisi, sed consequat dolor. Praesent rhoncus, nisl vitae rutrum faucibus, tellus diam pretium nisi, in sollicitudin nunc dolor quis tortor. Quisque nec varius lectus. Aenean ac purus iaculis nunc volutpat congue ornare sit amet dolor. Quisque ac mollis neque. Nunc ac dui nunc.</bio>
-        <graphic>dummy.jpg</graphic>
-        <video>https://www.youtube.com/embed/oxPrcC0BFJE?rel0&amp;controls=0&amp;showinfo=0</video>
+        <speaker>Andrew Davidson</speaker>
+        <affliation>Imperial College London</affliation>
+        <date>15 May 2020</date>
+        <!--<title>Coming Soon!</title>-->
+        <abstract>Coming Soon!</abstract>
+        <bio>Coming Soon!</bio>
+        <graphic>andrew_davidson.jpg</graphic>
+        <video>#</video>
     </talk>
     <talk>
+        <speaker>Leslie Kaelbling</speaker>
+        <affliation>MIT</affliation>
+        <date>22 May 2020</date>
+        <graphic>leslie_kaelbling.jpg</graphic>
+        <video>#</video>
+    </talk>
+    <talk>
+        <speaker>Allison Okamura</speaker>
+        <affliation>Stanford</affliation>
+        <date>22 May 2020</date>
+        <graphic>allison_okamura.jpg</graphic>
+        <video>#</video>
+    </talk>
+    <talk>
+        <speaker>Anca Dragan</speaker>
+        <affliation>UC Berkeley</affliation>
+        <date>22 May 2020</date>
+        <graphic>anca_dragan.jpg</graphic>
+    </talk>
+
+    <!--<talk>
         <speaker>Person Name</speaker>
         <affliation>School</affliation>
         <date>25 March 2020</date>
         <title>Talk Title</title>
-        <abstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac nunc auctor est auctor posuere elementum a ipsum. Fusce malesuada ligula ac rutrum hendrerit. Vivamus egestas ipsum vel quam commodo auctor. Sed placerat elementum consequat. Vivamus non ullamcorper nisi, sed consequat dolor. Praesent rhoncus, nisl vitae rutrum faucibus, tellus diam pretium nisi, in sollicitudin nunc dolor quis tortor. Quisque nec varius lectus. Aenean ac purus iaculis nunc volutpat congue ornare sit amet dolor. Quisque ac mollis neque. Nunc ac dui nunc.</abstract>
-        <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac nunc auctor est auctor posuere elementum a ipsum. Fusce malesuada ligula ac rutrum hendrerit. Vivamus egestas ipsum vel quam commodo auctor. Sed placerat elementum consequat. Vivamus non ullamcorper nisi, sed consequat dolor. Praesent rhoncus, nisl vitae rutrum faucibus, tellus diam pretium nisi, in sollicitudin nunc dolor quis tortor. Quisque nec varius lectus. Aenean ac purus iaculis nunc volutpat congue ornare sit amet dolor. Quisque ac mollis neque. Nunc ac dui nunc.</bio>
-    <graphic>dummy.jpg</graphic>
-    <video>https://www.youtube.com/embed/SDmbGrQqWog?rel0&amp;controls=0&amp;showinfo=0</video>
-    </talk>   
+        <abstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </abstract>
+        <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </bio>
+        <graphic>dummy.jpg</graphic>
+        <video>https://www.youtube.com/embed/SDmbGrQqWog?rel0&amp;controls=0&amp;showinfo=0</video>
+    </talk>-->  
 </events>
