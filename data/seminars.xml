@@ -3,10 +3,11 @@
         <speaker>Andrew Davidson</speaker>
         <affliation>Imperial College London</affliation>
         <date>15 May 2020</date>
-        <!--<title>Coming Soon!</title>-->
-        <abstract>Coming Soon!</abstract>
-        <bio>Coming Soon!</bio>
+        <title>From SLAM to Spatial AI</title>
+        <abstract>To enable the next generation of smart robots and devices which can truly interact with their environments, Simultaneous Localisation and Mapping (SLAM) will progressively develop into a general real-time geometric and semantic `Spatial AI' perception capability. I will give many examples from our work on gradually increasing visual SLAM capability over the years. However, much research must still be done to achieve true Spatial AI performance. A key issue is how estimation and machine learning components can be used and trained together as we continue to search for the best long-term scene representations to enable intelligent interaction.  Further, to enable the performance and efficiency required by real products, computer vision algorithms must be developed together with the sensors and processors which form full systems, and I will cover research on vision algorithms for non-standard visual sensors and graph-based computing architectures.</abstract>
+        <bio>Andrew Davison is Professor of Robot Vision and Director of the Dyson Robotics Laboratory at Imperial College London. His long-term research focus is on SLAM (Simultaneous Localisation and Mapping) and its evolution towards general `Spatial AI': computer vision algorithms which enable robots and other artificial devices to map, localise within and ultimately understand and interact with the 3D spaces around them. With his research group and collaborators he has consistently developed and demonstrated breakthrough systems, including MonoSLAM, KinectFusion, SLAM++ and CodeSLAM, and recent prizes include Best Paper at ECCV 2016 and Best Paper Honourable Mention at CVPR 2018. He has also had strong involvement in taking this technology into real applications, in particular through his work with Dyson on the design of the visual mapping system inside the Dyson 360 Eye robot vacuum cleaner and as co-founder of applied SLAM start-up SLAMcore. He was elected Fellow of the Royal Academy of Engineering in 2017.</bio>
         <graphic>andrew_davidson.jpg</graphic>
+        <url>https://www.doc.ic.ac.uk/~ajd/</url>
         <video>#</video>
     </talk>
     <talk>
@@ -14,20 +15,21 @@
         <affliation>MIT</affliation>
         <date>22 May 2020</date>
         <graphic>leslie_kaelbling.jpg</graphic>
-        <video>#</video>
+        <url>https://people.csail.mit.edu/lpk/</url>
     </talk>
     <talk>
         <speaker>Allison Okamura</speaker>
         <affliation>Stanford</affliation>
         <date>22 May 2020</date>
         <graphic>allison_okamura.jpg</graphic>
-        <video>#</video>
+        <url>https://profiles.stanford.edu/allison-okamura</url>
     </talk>
     <talk>
         <speaker>Anca Dragan</speaker>
         <affliation>UC Berkeley</affliation>
         <date>22 May 2020</date>
         <graphic>anca_dragan.jpg</graphic>
+        <url>https://people.eecs.berkeley.edu/~anca/</url>
     </talk>
 
     <!--<talk>

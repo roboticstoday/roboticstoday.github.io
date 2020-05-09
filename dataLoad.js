@@ -41,6 +41,7 @@ function seminarLoad(timeStatus) {
     x = xml.getElementsByTagName("talk");
     for (i = 0; i < x.length; i++) {
         var speaker = x[i].getElementsByTagName("speaker")[0].childNodes[0].nodeValue;
+        var url = x[i].getElementsByTagName("url")[0].childNodes[0].nodeValue;
         var affliation = x[i].getElementsByTagName("affliation")[0].childNodes[0].nodeValue;
         var picLink = x[i].getElementsByTagName("graphic")[0].childNodes[0].nodeValue;
         var date = x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
@@ -72,7 +73,7 @@ function seminarLoad(timeStatus) {
                 var title = x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
                 txt += '<h3>' + title + '</h3>';
             }
-            txt += '<h3>' + date + ': ' + speaker + ' (' + affliation + ')</h3><br/>';
+            txt += '<h3>' + date + ': <a href="' + url + '" target="_blank">' + speaker + ' </a>(' + affliation + ')</h3><br/>';
             if ( x[i].getElementsByTagName("abstract").length > 0 ) {
                 var abstract_para = x[i].getElementsByTagName("abstract")[0].childNodes[0].nodeValue;
                 txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';
