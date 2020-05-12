@@ -31,6 +31,14 @@
         <graphic>anca_dragan.jpg</graphic>
         <url>https://people.eecs.berkeley.edu/~anca/</url>
     </talk>
+    <talk>
+        <speaker>Scott Kuindersma</speaker>
+        <affliation>Boston Dynamics</affliation>
+        <date>26 June 2020</date>
+        <graphic>scott_kuindersma.jpg</graphic>
+        <url>https://scottk.seas.harvard.edu/</url>
+    </talk>
+
 
     <!--<talk>
         <speaker>Person Name</speaker>
