@@ -39,15 +39,16 @@ function seminarLoad(timeStatus) {
     var j = 0;
     var current_txt = "";
     x = xml.getElementsByTagName("talk");
+
     for (i = 0; i < x.length; i++) {
         var speaker = x[i].getElementsByTagName("speaker")[0].childNodes[0].nodeValue;
         var url = x[i].getElementsByTagName("url")[0].childNodes[0].nodeValue;
         var affliation = x[i].getElementsByTagName("affliation")[0].childNodes[0].nodeValue;
         var picLink = x[i].getElementsByTagName("graphic")[0].childNodes[0].nodeValue;
         var date = x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
-        var meetingDate = Date.parse(date);
+        var meetingDate = Date.parse(date);        
 
-        if (timeStatus == 'past' && (Date.now() > meetingDate)) {
+        /*if (timeStatus == 'past' && ((Date.now() +1000000)  >= meetingDate)) {
             var videoLink = x[i].getElementsByTagName("video")[0].childNodes[0].nodeValue;
             var title = x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
             var abstract_para = x[i].getElementsByTagName("abstract")[0].childNodes[0].nodeValue;
@@ -65,7 +66,7 @@ function seminarLoad(timeStatus) {
             txt += '</p></div>';
             current_txt += txt;
 
-        } if (timeStatus == 'upcoming' && (Date.now() < meetingDate)) {
+        } */ if (timeStatus == 'upcoming') { // && ((Date.now()+100) < meetingDate)) {
 
             txt = '<div class="seminar"><img src="graphics/speakers/' + picLink + '" alt="' + speaker + '" />';
            
