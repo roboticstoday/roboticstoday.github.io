@@ -8,19 +8,21 @@
         <bio>Andrew Davison is Professor of Robot Vision and Director of the Dyson Robotics Laboratory at Imperial College London. His long-term research focus is on SLAM (Simultaneous Localisation and Mapping) and its evolution towards general `Spatial AI': computer vision algorithms which enable robots and other artificial devices to map, localise within and ultimately understand and interact with the 3D spaces around them. With his research group and collaborators he has consistently developed and demonstrated breakthrough systems, including MonoSLAM, KinectFusion, SLAM++ and CodeSLAM, and recent prizes include Best Paper at ECCV 2016 and Best Paper Honourable Mention at CVPR 2018. He has also had strong involvement in taking this technology into real applications, in particular through his work with Dyson on the design of the visual mapping system inside the Dyson 360 Eye robot vacuum cleaner and as co-founder of applied SLAM start-up SLAMcore. He was elected Fellow of the Royal Academy of Engineering in 2017.</bio>
         <graphic>andrew_davison.jpg</graphic>
         <url>https://www.doc.ic.ac.uk/~ajd/</url>
-        <video>#</video>
     </talk>
     <talk>
         <speaker>Leslie Kaelbling</speaker>
         <affliation>MIT</affliation>
         <date>22 May 2020</date>
+        <title>Coming Soon!</title> <!--Doing for Our Robots What Nature Did For Us-->
+        <!--<abstract>We, as robot engineers, have to think hard about our role in the design of robots and how it interacts with learning, both in "the factory" (that is, at engineering time) and in "the wild" (that is, when the robot is delivered to a customer). I will share some general thoughts about the strategies for robot design and then talk in detail about some work I have been involved in, both in the design of an overall architecture for an intelligent robot and in strategies for learning to integrate new skills into the repertoire of an already competent robot.</abstract>
+        <bio>Dr. Leslie Pack Kaelbling is the Panasonic Professor of Computer Science and Engineering at the Computer Science and Artificial Intelligence Laboratory (CSAIL) at the Massachusetts Institute of Technology. She has made research contributions to decision-making under uncertainty, learning, and sensing with applications to robotics, with a particular focus on reinforcement learning and planning in partially observable domains. She holds an A.B in Philosophy and a Ph.D. in Computer Science from Stanford University, and has had research positions at SRI International and Teleos Research and a faculty position at Brown University. She is the recipient of the US National Science Foundation Presidential Faculty Fellowship, the IJCAI Computers and Thought Award, and several teaching prizes; she has been elected a fellow of the AAAI. She was the founder and editor-in-chief of the Journal of Machine Learning Research.</bio>-->
         <graphic>leslie_kaelbling.jpg</graphic>
         <url>https://people.csail.mit.edu/lpk/</url>
     </talk>
     <talk>
         <speaker>Allison Okamura</speaker>
         <affliation>Stanford</affliation>
-        <date>29 May 2020</date>
+        <date>5 June 2020</date>
         <graphic>allison_okamura.jpg</graphic>
         <url>https://profiles.stanford.edu/allison-okamura</url>
     </talk>

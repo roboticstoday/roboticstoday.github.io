@@ -39,6 +39,8 @@ function seminarLoad(timeStatus) {
     var j = 0;
     var current_txt = "";
     x = xml.getElementsByTagName("talk");
+    var tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() - 1); 
 
     for (i = 0; i < x.length; i++) {
         var speaker = x[i].getElementsByTagName("speaker")[0].childNodes[0].nodeValue;
@@ -48,16 +50,21 @@ function seminarLoad(timeStatus) {
         var date = x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
         var meetingDate = Date.parse(date);        
 
-        /*if (timeStatus == 'past' && ((Date.now() +1000000)  >= meetingDate)) {
-            var videoLink = x[i].getElementsByTagName("video")[0].childNodes[0].nodeValue;
+        if (timeStatus == 'past' && (Date.parse(tomorrow) > meetingDate)) {
             var title = x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
             var abstract_para = x[i].getElementsByTagName("abstract")[0].childNodes[0].nodeValue;
             var bio = x[i].getElementsByTagName("bio")[0].childNodes[0].nodeValue;
 
             txt = '<div class="seminar">';
-            txt += '<iframe width="448" height="252"  src="' + videoLink + '" frameborder="0" allowfullscreen></iframe>';
+            if ( x[i].getElementsByTagName("video").length > 0 ) { 
+                var videoLink = x[i].getElementsByTagName("video")[0].childNodes[0].nodeValue;
+                txt += '<iframe width="448" height="252"  src="' + videoLink + '" frameborder="0" allowfullscreen></iframe>';
+            } else {
+                txt += '<img src="graphics/speakers/' + picLink + '" alt="' + speaker + '" />';
+            }
+
             txt += '<h3>' + title + '</h3>';
-            txt += '<h3>' + date + ': ' + speaker + ' (' + affliation + ')</h3><br/>'
+            txt += '<h3>' + date + ': ' + speaker + ' (' + affliation + ')</h3><br/>';
             txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';
             txt += '<b>Biography:</b> ' + bio;
             if ( x[i].getElementsByTagName("note").length > 0 ) {
@@ -66,7 +73,8 @@ function seminarLoad(timeStatus) {
             txt += '</p></div>';
             current_txt += txt;
 
-        } */ if (timeStatus == 'upcoming') { // && ((Date.now()+100) < meetingDate)) {
+        } 
+        if (timeStatus == 'upcoming' && (Date.parse(tomorrow) < meetingDate)) {
 
             txt = '<div class="seminar"><img src="graphics/speakers/' + picLink + '" alt="' + speaker + '" />';
            
