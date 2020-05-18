@@ -74,7 +74,7 @@ function seminarLoad(timeStatus) {
 
             if ( x[i].getElementsByTagName("qa").length > 0) {
                 var qaLink = x[i].getElementsByTagName("qa")[0].childNodes[0].nodeValue;
-                txt += "<br/<br/>" + speaker + " has kindly answer a few of the many questions we weren't able to get to! ";
+                txt += "<br/<br/>" + speaker + " has kindly answered a few of the many questions we weren't able to get to! ";
                 txt += '<a onclick="toggle(' + i + ')">Show/Hide the extra Q/A.</a>';
                 txt += '<div id="' + i + '" style="display:none">' + readQA(qaLink) + '</div>'; }
 
