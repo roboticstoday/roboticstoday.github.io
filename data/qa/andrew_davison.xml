@@ -1,0 +1,36 @@
+<qas> 
+    <qa>
+        <question>Do you have any thoughts on treating networks as imperfect in their predictions and how this can help fuse traditional and learned methods?</question>
+        <asker>Patrick Geneva</asker>
+        <answer>If we are going to make modular systems with designed and learned components together, then probability does seem to be the essential glue we’ll have to use to put them together, so I do think that we’ll have to understand and model the uncertainty in network predictions in order to interface them with estimation and optimisation. There are many methods out there already trying to do this, but it is still difficult to get really meaningful confidence values for the predictions of networks when faced with inputs far away from their training data.</answer>
+    </qa>
+    <qa>
+        <question>Curious about representations beyond geometry and classes, to incorporate intra-object and inter-object constraints; e.g. hinge, slide, spring. Progress there?</question>
+        <asker>Renato Salas</asker>
+        <answer>I'm not aware of much specific work on these kind of constraints; I suppose if you can reliably detect the class of an object which has certain well defined internal degrees of freedom then these could be modeled well within a coded object model. I’m interested in modelling the physics interactions between multiple rigid objects in a pile and using this to help in inference in reasoning in the direction of the kind of intuitive physics understanding that humans are very good at (e.g. will this pile fall over if I pull out this object?) (Hi Renato!)</answer>
+    </qa>
+
+    <qa>
+        <question>So exciting! As a SLAM researcher, I'm wondering what will be the final reasonable representations of the daily objects in SLAM? Thanks so much.</question>
+        <asker>Tyrion</asker>
+        <answer>I think that for "simple" objects that are rigid, are elements of low dimensional shape spaces, or are made up of easily decomposable parts, then some of the representations we already have like CAD models or shape-coded models can be very practical. However, I still think we are at an early stage in research on to efficiently but accurately represent objects which have complicated and/or non-rigid shapes. I think of something like a bag and how a human can effortlessly understand its shape, parts and function even if they have never seen the same type of bag before. I don’t have much idea yet what will be a suitable low-dimensional representation of an object like that.</answer>
+    </qa>
+
+    <qa>
+        <question>I am really interested in object level SLAM with metric information, How do you think using model uncertainty in deep learning will help in SLAM accuracy?</question>
+        <asker>Hemang Purohit</asker>
+        <answer>Yes, similar to the question above, I think that this is very important — we need learned representations which come with metric uncertainty so that we can interface them with probabilistic estimation and optimisation. For instance, coded object representations like in NodeSLAM do this already because they decode to a volumetric occupancy map which we can raycast probabilistically to fit to measurements.</answer>
+    </qa>
+
+    <qa>
+        <question>There are so many papers on end-to-end learning based navigation. From the SLAM perspective, what do you think of this body of work?</question>
+        <asker>Anonymous</asker>
+        <answer>I think it’s really interesting and I always keep an eye on that work. As I explained in my talk, I think that end to end learning of navigation is a long-term project, and I think that modular combinations of learning and designed representations and algorithms are much more likely to be useful in the short to medium term. In fact, if you look at a lot of the successful approaches in “end to end learning”, you’ll see that rather a lot of design of the architectures of the networks or format of the inputs and outputs has been used. And I think that SLAM and Spatial AI are about much more than just A to B navigation, as I discuss in my FutureMapping paper. Consider a robot whose task is to clean a whole room or inspect a whole scene, remembering all of the places that it has visited in order to ensure full coverage. It is very hard for me to imagine such a task being possible without the robot building a substantial, and probably close to metric `map’ of the scene. Yes, perhaps one day an end to end trained network will be able to do that, but if it does I expect that we’ll be able to inspect the weights of its trained network and find a somewhat recognisable `map’ representation it has built, which perhaps won’t be that different to something we could have designed. What I am currently most interested in is the computational and memory patterns of how such a map is built and learned efficiently, whether that map representation is designed or learned end to end.</answer>
+    </qa>
+
+    <qa>
+        <question>When you have a robotic arm pick objects, have you tried objects that are transparent? </question>
+        <asker>Anonymous</asker>
+        <answer>No, we haven’t really worked on that — though most transparent objects (e.g. a plastic water bottle) are at least somewhat visible by a depth camera, or their contours can be detected in an RGB image. I believe that there is some good specific work in computer vision on detecting objects like that using machine learning.</answer>
+    </qa>
+</qas>

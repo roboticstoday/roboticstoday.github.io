@@ -66,10 +66,18 @@ function seminarLoad(timeStatus) {
             txt += '<h3>' + title + '</h3>';
             txt += '<h3>' + date + ': ' + speaker + ' (' + affliation + ')</h3><br/>';
             txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';
-            txt += '<b>Biography:</b> ' + bio;
+            txt += '<b>Biography:</b> ' + bio + '<br/>';
+
             if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
+
+            if ( x[i].getElementsByTagName("qa").length > 0) {
+                var qaLink = x[i].getElementsByTagName("qa")[0].childNodes[0].nodeValue;
+                txt += "<br/<br/>" + speaker + " has kindly answer a few of the many questions we weren't able to get to! ";
+                txt += '<a onclick="toggle(' + i + ')">Show/Hide the extra Q/A.</a>';
+                txt += '<div id="' + i + '" style="display:none">' + readQA(qaLink) + '</div>'; }
+
             txt += '</p></div>';
             current_txt += txt;
 
@@ -94,10 +102,45 @@ function seminarLoad(timeStatus) {
             if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
+
             txt += '</p></div>';
             current_txt += txt;
         }
     }
     var idName = 'seminars_'+timeStatus;
     document.getElementById(idName).innerHTML = current_txt;
+}
+
+function readQA(fileName) { 
+    var request = new XMLHttpRequest();
+    request.open("GET", "data/qa/" + fileName, false);
+    request.setRequestHeader("Content-Type", "text/xml");
+    request.send(null);
+    var xml = request.responseXML;
+
+    var x, i, txt; 
+    var current_txt = '<br/>';
+    x = xml.getElementsByTagName("qa");
+    for (i = 0; i < x.length; i++) {
+
+        var question = x[i].getElementsByTagName("question")[0].childNodes[0].nodeValue;
+        var asker = x[i].getElementsByTagName("asker")[0].childNodes[0].nodeValue;
+        var answer = x[i].getElementsByTagName("answer")[0].childNodes[0].nodeValue;
+
+        txt = '<b>Q</b>: ' + question + ' (<i>' + asker + '</i>)<br/>';
+        txt += '<b>A</b>: ' + answer + '<br/><br/>';
+
+        current_txt += txt;
+
+    }
+    return current_txt;
+}
+
+function toggle(divName) {
+  var x = document.getElementById(divName);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }

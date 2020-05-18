@@ -8,6 +8,7 @@
         <bio>Andrew Davison is Professor of Robot Vision and Director of the Dyson Robotics Laboratory at Imperial College London. His long-term research focus is on SLAM (Simultaneous Localisation and Mapping) and its evolution towards general `Spatial AI': computer vision algorithms which enable robots and other artificial devices to map, localise within and ultimately understand and interact with the 3D spaces around them. With his research group and collaborators he has consistently developed and demonstrated breakthrough systems, including MonoSLAM, KinectFusion, SLAM++ and CodeSLAM, and recent prizes include Best Paper at ECCV 2016 and Best Paper Honourable Mention at CVPR 2018. He has also had strong involvement in taking this technology into real applications, in particular through his work with Dyson on the design of the visual mapping system inside the Dyson 360 Eye robot vacuum cleaner and as co-founder of applied SLAM start-up SLAMcore. He was elected Fellow of the Royal Academy of Engineering in 2017.</bio>
         <graphic>andrew_davison.jpg</graphic>
         <url>https://www.doc.ic.ac.uk/~ajd/</url>
+        <qa>andrew_davison.xml</qa>
     </talk>
     <talk>
         <speaker>Leslie Kaelbling</speaker>
