@@ -65,7 +65,7 @@ function seminarLoad(timeStatus) {
 
             txt += '<h3>' + title + '</h3>';
             txt += '<h3>' + date + ': ' + speaker + ' (' + affliation + ')</h3><br/>';
-            txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';
+            txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/><br/>';
             txt += '<b>Biography:</b> ' + bio + '<br/>';
 
             if ( x[i].getElementsByTagName("note").length > 0 ) {
