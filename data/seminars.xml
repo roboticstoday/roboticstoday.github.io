@@ -19,6 +19,8 @@
         <abstract>We, as robot engineers, have to think hard about our role in the design of robots and how it interacts with learning, both in "the factory" (that is, at engineering time) and in "the wild" (that is, when the robot is delivered to a customer). I will share some general thoughts about the strategies for robot design and then talk in detail about some work I have been involved in, both in the design of an overall architecture for an intelligent robot and in strategies for learning to integrate new skills into the repertoire of an already competent robot.</abstract>
         <bio>Leslie is a Professor at MIT. She has an undergraduate degree in Philosophy and a PhD in Computer Science from Stanford, and was previously on the faculty at Brown University. She was the founding editor-in-chief of the Journal of Machine Learning Research. Her research agenda is to make intelligent robots using methods including estimation, learning, planning, and reasoning. She is not a robot.</bio>
         <graphic>leslie_kaelbling.jpg</graphic>
+        <video>https://www.youtube.com/embed/5R-xL9YmdR0?rel0&amp;controls=0&amp;showinfo=0</video>
+
         <url>https://people.csail.mit.edu/lpk/</url>
     </talk>
     <talk>

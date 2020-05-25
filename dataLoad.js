@@ -79,7 +79,7 @@ function seminarLoad(timeStatus) {
                 txt += '<div id="' + i + '" style="display:none">' + readQA(qaLink) + '</div>'; }
 
             txt += '</p></div>';
-            current_txt += txt;
+            current_txt = txt + current_txt;
 
         } 
         if (timeStatus == 'upcoming' && (Date.parse(tomorrow) < meetingDate)) {
