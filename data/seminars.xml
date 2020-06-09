@@ -36,6 +36,9 @@
         <speaker>Anca Dragan</speaker>
         <affliation>UC Berkeley</affliation>
         <date>12 June 2020</date>
+        <title>Optimizing Intended Reward Functions: Extracting all the right information from all the right places</title>
+        <abstract>AI work tends to focus on how to optimize a specified reward function, but rewards that lead to the desired behavior consistently are not so easy to specify. Rather than optimizing specified reward, which is already hard, robots have the much harder job of optimizing intended reward. While the specified reward does not have as much information as we make our robots pretend, the good news is that humans constantly leak information about what the robot should optimize. In this talk, we will explore how to read the right amount of information from different types of human behavior -- and even the lack thereof. </abstract>
+        <bio>Anca Dragan is an Assistant Professor in EECS at UC Berkeley, where she runs the InterACT lab. Her goal is to enable robots to work with, around, and in support of people. She works on algorithms that enable robots to a) coordinate with people in shared spaces, and b) learn what people want them to do. Anca did her PhD in the Robotics Institute at Carnegie Mellon University on legible motion planning. At Berkeley, she helped found the Berkeley AI Research Lab, is a co-PI for the Center for Human-Compatible AI, and has been honored by the Presidential Early Career Award for Scientists and Engineers (PECASE), the Sloan fellowship, the NSF CAREER award, the Okawa award, MIT's TR35, and an IJCAI Early Career Spotlight.</bio>
         <graphic>anca_dragan.jpg</graphic>
         <url>https://people.eecs.berkeley.edu/~anca/</url>
     </talk>
