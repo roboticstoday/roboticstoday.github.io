@@ -46,6 +46,9 @@
         <speaker>Scott Kuindersma</speaker>
         <affliation>Boston Dynamics</affliation>
         <date>26 June 2020</date>
+        <title>Recent Progress on Atlas, the World’s Most Dynamic Humanoid Robot</title>
+        <abstract>The Atlas project at Boston Dynamics aims to make advances in robot hardware and software that allow us to match or exceed average human performance in dynamic mobility tasks. In this talk, I will give an overview of how we are using optimization to rapidly create behaviors for Atlas and share some recent examples of applying these ideas to perception-driven parkour.</abstract>
+        <bio>Scott Kuindersma is a Research Scientist at Boston Dynamics where he leads a team of control engineers who are creating algorithms for coordinated, athletic, and adaptive behavior on Atlas. Previously he held positions as an Assistant Professor of Engineering and Computer Science at Harvard University and a postdoc at MIT CSAIL where he was the controls lead for the MIT DARPA Robotics Challenge Team.</bio>
         <graphic>scott_kuindersma.jpg</graphic>
         <url>https://scottk.seas.harvard.edu/</url>
     </talk>
