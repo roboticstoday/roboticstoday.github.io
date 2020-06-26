@@ -9,6 +9,8 @@
         <graphic>andrew_davison.jpg</graphic>
         <video>https://www.youtube.com/embed/lGIM2WVp5t0?rel0&amp;controls=0&amp;showinfo=0</video>
         <url>https://www.doc.ic.ac.uk/~ajd/</url>
+        <guest>John Leonard</guest>
+        <guesturl>http://marinerobotics.mit.edu/john-j-leonard</guesturl>
         <qa>andrew_davison.xml</qa>
     </talk>
     <talk>
@@ -32,6 +34,8 @@
         <graphic>allison_okamura.jpg</graphic>
         <video>https://www.youtube.com/embed/N6_jmD_89qM?rel0&amp;controls=0&amp;showinfo=0</video>
         <url>https://profiles.stanford.edu/allison-okamura</url>
+        <guest>Mark Yim</guest>
+        <guesturl>https://www.grasp.upenn.edu/people/mark-yim</guesturl>
     </talk>
     <talk>
         <speaker>Anca Dragan</speaker>
@@ -43,6 +47,8 @@
         <graphic>anca_dragan.jpg</graphic>
         <video>https://www.youtube.com/embed/6pKv9YUCFkw?rel0&amp;controls=0&amp;showinfo=0</video>
         <url>https://people.eecs.berkeley.edu/~anca/</url>
+        <guest>Ayanna Howard</guest>
+        <guesturl>https://howard.ece.gatech.edu/</guesturl>
     </talk>
     <talk>
         <speaker>Scott Kuindersma</speaker>
@@ -53,6 +59,24 @@
         <bio>Scott Kuindersma is a Research Scientist at Boston Dynamics where he leads a team of control engineers who are creating algorithms for coordinated, athletic, and adaptive behavior on Atlas. Previously he held positions as an Assistant Professor of Engineering and Computer Science at Harvard University and a postdoc at MIT CSAIL where he was the controls lead for the MIT DARPA Robotics Challenge Team.</bio>
         <graphic>scott_kuindersma.jpg</graphic>
         <url>https://scottk.seas.harvard.edu/</url>
+        <guest>Sangbae Kim</guest>
+        <guesturl>https://meche.mit.edu/people/faculty/SANGBAE@MIT.EDU</guesturl>
+    </talk>
+
+
+    <talk>
+        <speaker>Naira Hovakimyan</speaker>
+        <affliation>UIUC</affliation>
+        <date>10 July 2020</date>
+        <graphic>naira_hovakimyan.jpg</graphic>
+        <url>https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/</url>
+    </talk>
+    <talk>
+        <speaker>Sidd Srinivasa</speaker>
+        <affliation>UW</affliation>
+        <date>24 July 2020</date>
+        <graphic>sidd_srinivasa.jpg</graphic>
+        <url>https://goodrobot.ai/</url>
     </talk>
     <!--<talk>
         <speaker>Person Name</speaker>
