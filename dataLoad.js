@@ -72,9 +72,16 @@ function seminarLoad(timeStatus) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
 
+            if ( (x[i].getElementsByTagName("guest").length > 0) && (x[i].getElementsByTagName("guesturl").length > 0)) {
+                var guest = x[i].getElementsByTagName("guest")[0].childNodes[0].nodeValue;
+                var guesturl = x[i].getElementsByTagName("guesturl")[0].childNodes[0].nodeValue;
+                txt += "<br/><b>Featuring Guest Panelist:</b> <a href='" + guesturl + "' target=_'blank'>"; 
+                txt += guest + "</a>"; }
+
+
             if ( x[i].getElementsByTagName("qa").length > 0) {
                 var qaLink = x[i].getElementsByTagName("qa")[0].childNodes[0].nodeValue;
-                txt += "<br/<br/>" + speaker + " has kindly answered a few of the many questions we weren't able to get to! ";
+                txt += "<br/><br/>" + speaker + " has kindly answered a few of the many questions we weren't able to get to! ";
                 txt += '<a onclick="toggle(' + i + ')">Show/Hide the extra Q/A.</a>';
                 txt += '<div id="' + i + '" style="display:none">' + readQA(qaLink) + '</div>'; }
 
