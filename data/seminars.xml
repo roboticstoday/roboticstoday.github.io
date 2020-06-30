@@ -58,12 +58,11 @@
         <abstract>The Atlas project at Boston Dynamics aims to make advances in robot hardware and software that allow us to match or exceed average human performance in dynamic mobility tasks. In this talk, I will give an overview of how we are using optimization to rapidly create behaviors for Atlas and share some recent examples of applying these ideas to perception-driven parkour.</abstract>
         <bio>Scott Kuindersma is a Research Scientist at Boston Dynamics where he leads a team of control engineers who are creating algorithms for coordinated, athletic, and adaptive behavior on Atlas. Previously he held positions as an Assistant Professor of Engineering and Computer Science at Harvard University and a postdoc at MIT CSAIL where he was the controls lead for the MIT DARPA Robotics Challenge Team.</bio>
         <graphic>scott_kuindersma.jpg</graphic>
+        <video>https://www.youtube.com/embed/EGABAx52GKI?rel0&amp;controls=0&amp;showinfo=0</video>
         <url>https://scottk.seas.harvard.edu/</url>
         <guest>Sangbae Kim</guest>
         <guesturl>https://meche.mit.edu/people/faculty/SANGBAE@MIT.EDU</guesturl>
     </talk>
-
-
     <talk>
         <speaker>Naira Hovakimyan</speaker>
         <affliation>UIUC</affliation>
