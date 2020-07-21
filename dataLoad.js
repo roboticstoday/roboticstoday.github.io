@@ -76,7 +76,13 @@ function seminarLoad(timeStatus) {
                 var guest = x[i].getElementsByTagName("guest")[0].childNodes[0].nodeValue;
                 var guesturl = x[i].getElementsByTagName("guesturl")[0].childNodes[0].nodeValue;
                 txt += "<br/><b>Featuring Guest Panelist:</b> <a href='" + guesturl + "' target=_'blank'>"; 
-                txt += guest + "</a>"; }
+                txt += guest + "</a>"; 
+                if ( (x[i].getElementsByTagName("guest2").length > 0) && (x[i].getElementsByTagName("guesturl2").length > 0)) {
+                    var guest2 = x[i].getElementsByTagName("guest2")[0].childNodes[0].nodeValue;
+                    var guesturl2 = x[i].getElementsByTagName("guesturl2")[0].childNodes[0].nodeValue;
+                    txt += " and <a href='" + guesturl2 + "' target=_'blank'>" + guest2 + "</a>"; }
+            }
+
 
 
             if ( x[i].getElementsByTagName("qa").length > 0) {

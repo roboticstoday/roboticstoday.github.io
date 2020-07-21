@@ -72,6 +72,11 @@
         <bio>Naira Hovakimyan received her MS degree in Theoretical Mechanics and Applied Mathematics in 1988 from Yerevan State University in Armenia. She got her Ph.D. in Physics and Mathematics in 1992 from the Institute of Applied Mathematics of Russian Academy of Sciences in Moscow. She is currently a W. Grafton and Lillian B. Wilkins Professor of Mechanical Science and Engineering at UIUC. In 2015 she was named inaugural director for Intelligent Robotics Lab of Coordinated Science Laboratory at UIUC. She has co-authored two books, six patents and more than 400 refereed publications. She was the recipient of the SICE International scholarship for the best paper of a young investigator in the VII ISDG Symposium (Japan, 1996), the 2011 recipient of AIAA Mechanics and Control of Flight Award, the 2015 recipient of SWE Achievement Award, the 2017 recipient of IEEE CSS Award for Technical Excellence in Aerospace Controls, and the 2019 recipient of AIAA Pendray Aerospace Literature Award. In 2014 she was awarded the Humboldt prize for her lifetime achievements. She is Fellow and life member of AIAA and a Fellow of IEEE. She is cofounder and chief scientist of IntelinAir. Her work in robotics for elderly care was featured in the New York Times, on Fox TV and CNBC. Her research interests are in control, estimation and optimization, autonomous systems, game theory and their broad applications across various industries.</bio>
         <graphic>naira_hovakimyan.jpg</graphic>
         <url>https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/</url>
+        <video>https://www.youtube.com/embed/MY9i9RCiPdU?rel0&amp;controls=0&amp;showinfo=0</video>
+        <guest>Claire Tomlin</guest>
+        <guesturl>https://people.eecs.berkeley.edu/~tomlin/</guesturl>
+        <guest2>Jonathan How</guest2>
+        <guesturl2>https://www.mit.edu/~jhow/</guesturl2>
     </talk>
     <talk>
         <speaker>Sidd Srinivasa</speaker>
@@ -82,6 +87,9 @@
         <bio>Siddhartha Srinivasa is the Boeing Endowed Professor at The Paul G. Allen School of Computer Science and Engineering at the University of Washington, and an IEEE Fellow. He is a full-stack roboticist, with the goal of enabling robots to perform complex manipulation tasks under uncertainty and clutter, with and around people. To this end, he founded the Personal Robotics Lab in 2005. He was a PI on the Quality of Life Technologies NSF ERC, DARPA ARM-S. RCTA and the DARPA Robotics Challenge, has built several robots (HERB, ADA, CHIMP, MuSHR), and has written software frameworks (OpenRAVE, DART) and best-paper award winning algorithms (CBiRRT, CHOMP, BIT*, Legibility) used extensively by roboticists around the world. Sidd received a B.Tech in Mechanical Engineering from the Indian Institute of Technology Madras in 1999, and a PhD in 2005 from the Robotics Institute at Carnegie Mellon University. He played badminton and tennis for IIT Madras, captained the CMU squash team, and lately runs competitively.</bio>
         <graphic>sidd_srinivasa.jpg</graphic>
         <url>https://goodrobot.ai/</url>
+        <!--<video>https://www.youtube.com/embed/MY9i9RCiPdU?rel0&amp;controls=0&amp;showinfo=0</video>-->
+        <guest>Kostas Bekris</guest>
+        <guesturl>https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/</guesturl>
     </talk>
     <!--<talk>
         <speaker>Person Name</speaker>
