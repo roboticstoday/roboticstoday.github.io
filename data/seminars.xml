@@ -87,18 +87,10 @@
         <bio>Siddhartha Srinivasa is the Boeing Endowed Professor at The Paul G. Allen School of Computer Science and Engineering at the University of Washington, and an IEEE Fellow. He is a full-stack roboticist, with the goal of enabling robots to perform complex manipulation tasks under uncertainty and clutter, with and around people. To this end, he founded the Personal Robotics Lab in 2005. He was a PI on the Quality of Life Technologies NSF ERC, DARPA ARM-S. RCTA and the DARPA Robotics Challenge, has built several robots (HERB, ADA, CHIMP, MuSHR), and has written software frameworks (OpenRAVE, DART) and best-paper award winning algorithms (CBiRRT, CHOMP, BIT*, Legibility) used extensively by roboticists around the world. Sidd received a B.Tech in Mechanical Engineering from the Indian Institute of Technology Madras in 1999, and a PhD in 2005 from the Robotics Institute at Carnegie Mellon University. He played badminton and tennis for IIT Madras, captained the CMU squash team, and lately runs competitively.</bio>
         <graphic>sidd_srinivasa.jpg</graphic>
         <url>https://goodrobot.ai/</url>
-        <!--<video>https://www.youtube.com/embed/MY9i9RCiPdU?rel0&amp;controls=0&amp;showinfo=0</video>-->
+        <video>https://www.youtube.com/embed/adrVlZegiR0?rel0&amp;controls=0&amp;showinfo=0</video>
         <guest>Kostas Bekris</guest>
         <guesturl>https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/</guesturl>
+        <guest2>Chinwe Ekenna</guest2>
+        <guesturl2>https://www.albany.edu/~CE392242/</guesturl2>
     </talk>
-    <!--<talk>
-        <speaker>Person Name</speaker>
-        <affliation>School</affliation>
-        <date>25 March 2020</date>
-        <title>Talk Title</title>
-        <abstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </abstract>
-        <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </bio>
-        <graphic>dummy.jpg</graphic>
-        <video>https://www.youtube.com/embed/SDmbGrQqWog?rel0&amp;controls=0&amp;showinfo=0</video>
-    </talk>-->  
 </events>
