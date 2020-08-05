@@ -1,0 +1,27 @@
+<qas> 
+    <qa>
+        <question>For those who want to start with search, what do you suggest is the best place to start? </question>
+        <asker>Anonymous</asker>
+        <answer>I’d start with Pearl’s book on  &lt;a href="https://www.amazon.com/Heuristics-Intelligent-Strategies-Addison-Wesley-intelligence/dp/0201055945" target="_blank" &gt;Heuristics&lt;/a&gt;, without a doubt. </answer>
+    </qa>
+    <qa>
+        <question>Can LazySP run on an implicit graph? </question>
+        <asker>Anonymous</asker>
+        <answer>Yes, but with some additional bookkeeping. The ghost amoebas of LazySP can indeed search on an implicit graph (one whose children are only accessible via a successor function). However, since the algorithm searches the graph repeatedly until it finds the optimal solution, it does need to remember the results of its previous real amoeba edge collision checks, so as not to repeat history’s mistakes again. The optimized variant of the algorithm that uses LPA* to remember and rewire the search tree inherits all of LPA*s implicitness requirements.</answer>
+    </qa>
+    <qa>
+        <question>What is the effect of graph density on LazySP? </question>
+        <asker>Anonymous</asker>
+        <answer>As the number of vertices increases, most algorithms shrink the connection radius to prevent the degree from blowing up. This results in a graph with a very large number of short edges, pushing the burden back on search. I’m not a fan of short edges (see our paper on  &lt;a href="https://personalrobotics.cs.washington.edu/publications/choudhury2017densification.pdf" target="_blank"&gt;densification strategies&lt;/a&gt; for a formal argument) and much prefer fewer longer edges to many short edges. But, if you have to live with a dense graph with short edges, algorithms like  &lt;a href="https://personalrobotics.cs.washington.edu/publications/mandalika2019gls.pdf" target="_blank"&gt;GLS&lt;/a&gt; can help you make an informed decision about the search vs collision-checking tradeoff but it’s not as simple as LazySP.</answer>
+    </qa>
+    <qa>
+        <question>Is there a good way to partition amoebas among processors so each processor has good amoebas? </question>
+        <asker>Troy</asker>
+        <answer>A* is a notoriously hard problem to parallelize because of the global priority queue which is necessary to guarantee optimality. You can trivially parallelize some operations, like the successor but that’s bound by the degree (typically less than 10) which is much smaller than the number of GPU cores (typically 1000s). Some  &lt;a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9620/9366" target="_blank"&gt;recent approaches&lt;/a&gt; pull from thousands of parallel priority queues, but then unless you’re willing to sacrifice optimality, the amoebas need to synchronize to decide who lives and who gets to die.</answer>
+    </qa>
+    <qa>
+        <question>How can you learn good priors from human experts? </question>
+        <asker>Anonymous</asker>
+        <answer>First, it’d be good to understand what humans are expert at. Probably not search. Maybe heuristics, but truly consistent heuristic functions are notoriously hard to create, and inconsistent heuristics can lead to arbitrarily poor performance even when paired with other consistent heuristics. I assert that humans are probably good at completing worlds, from their experience and from domain knowledge. So I am hopeful of the experienced Piano movers’ formulation as a search among worlds to help us derive better priors on worlds, which can now be fed via our machinery into more efficient search. </answer>
+    </qa>
+</qas>

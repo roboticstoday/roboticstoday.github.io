@@ -1,0 +1,16 @@
+<events> 
+    <talk>
+        <speaker>Vijay Kumar</speaker>
+        <affliation>University of Pennsylvania</affliation>
+        <date>July 30 at 2:00pm-3:00pm (PDT) 5:00pm (EDT) 11:00PM (CET) and July 31 at 6:00am (JST) and 7:00AM (AEST)</date>
+        <title>Swarms of Small, Flying Robots</title>
+        <theme>Aerial Robotics</theme>
+        <abstract>The last decade has seen rapid advances in computation, sensing, and communication that has created new opportunities for flying robots. This talk will examine some of the relevant technological drivers and scientific advances, and explore challenges of realizing autonomous swarms of flying robots in environments with obstacles in the absence of GPS with opportunities for first response, and mining and construction.</abstract>
+        <bio>Vijay Kumar is the Nemirovsky Family Dean of Penn Engineering with appointments in the Departments of Mechanical Engineering and Applied Mechanics, Computer and Information Science, and Electrical and Systems Engineering at the University of Pennsylvania. Kumar's group works on creating autonomous ground and aerial robots, designing bio-inspired algorithms for collective behaviors, and on robot swarms. They have won many best paper awards at conferences, and group alumni are leaders in teaching, research, business and entrepreneurship. Kumar is a fellow of ASME and IEEE and a member of the National Academy of Engineering. He has held several administrative positions in the School of Engineering and Applied Science, including director of the GRASP Laboratory, chair of Mechanical Engineering and Applied Mechanics, and the position of the Deputy Dean. He served as the assistant director of robotics and cyber physical systems at the White House Office of Science and Technology Policy.</bio>
+        <url>https://www.kumarrobotics.org/dr-vijay-kumar/</url>
+        <guest>Nancy Amato</guest>
+        <guesturl>https://cs.illinois.edu/about/people/faculty/namato</guesturl>
+        <stream>https://zoom.us/j/91427874305</stream>
+        <slido>https://app.sli.do/event/c6crflfz</slido>
+    </talk>
+</events>

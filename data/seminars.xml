@@ -92,5 +92,7 @@
         <guesturl>https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/</guesturl>
         <guest2>Chinwe Ekenna</guest2>
         <guesturl2>https://www.albany.edu/~CE392242/</guesturl2>
+        <qa>siddhartha_srinivasa.xml</qa>
+        <slides>siddhartha_srinivasa.pdf</slides>
     </talk>
 </events>

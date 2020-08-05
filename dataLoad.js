@@ -65,6 +65,12 @@ function seminarLoad(timeStatus) {
 
             txt += '<h3>' + title + '</h3>';
             txt += '<h3>' + date + ':<a href="' + url + '"target="_blank">' + speaker + ' </a>(' + affliation + ')</h3><br/>';
+       
+            if ( x[i].getElementsByTagName("slides").length > 0) {
+                var slides = x[i].getElementsByTagName("slides")[0].childNodes[0].nodeValue;
+                txt += "<b><a href='data/slides/" + slides + "' target='_blank'>(Slides)</a></b><br/><br/>" }
+
+
             txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/><br/>';
             txt += '<b>Biography:</b> ' + bio + '<br/>';
 
@@ -82,8 +88,6 @@ function seminarLoad(timeStatus) {
                     var guesturl2 = x[i].getElementsByTagName("guesturl2")[0].childNodes[0].nodeValue;
                     txt += " and <a href='" + guesturl2 + "' target=_'blank'>" + guest2 + "</a>"; }
             }
-
-
 
             if ( x[i].getElementsByTagName("qa").length > 0) {
                 var qaLink = x[i].getElementsByTagName("qa")[0].childNodes[0].nodeValue;
@@ -156,4 +160,56 @@ function toggle(divName) {
   } else {
     x.style.display = "none";
   }
+}
+
+function ifrrLoad(timeStatus) {
+    
+    var request = new XMLHttpRequest();
+    request.open("GET", "data/ifrr.xml", false);
+    request.setRequestHeader("Content-Type", "text/xml");
+    request.send(null);
+    var xml = request.responseXML;
+
+    var x, i, txt;
+    var j = 0;
+    var current_txt = "";
+    x = xml.getElementsByTagName("talk"); 
+
+    for (i = 0; i < x.length; i++) {
+        var theme = x[i].getElementsByTagName("theme")[0].childNodes[0].nodeValue;
+        var zoom = x[i].getElementsByTagName("stream")[0].childNodes[0].nodeValue;
+        var slido = x[i].getElementsByTagName("slido")[0].childNodes[0].nodeValue;
+
+        var title = x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        var speaker = x[i].getElementsByTagName("speaker")[0].childNodes[0].nodeValue;
+        var url = x[i].getElementsByTagName("url")[0].childNodes[0].nodeValue;
+        var affliation = x[i].getElementsByTagName("affliation")[0].childNodes[0].nodeValue;
+        var date = x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+
+        txt = '<div class="seminar">';
+        txt += '<h3>' + theme + '</h3>';
+        txt += date + '. ';
+        txt += '<a href="' + zoom + '" target="_blank">Live Stream via Zoom Webinar</a> and ';
+        txt += '<a href="' + slido + '" target="_blank">Live questions and discussion via Slido</a><br/><br/>';
+
+        txt += '<h3>' + title + ' by <a href="' + url + '" target="_blank">' + speaker + ' </a>(' + affliation + ')</h3><br/>';
+
+        if ( (x[i].getElementsByTagName("guest").length > 0) && (x[i].getElementsByTagName("guesturl").length > 0)) {
+            var guest = x[i].getElementsByTagName("guest")[0].childNodes[0].nodeValue;
+            var guesturl = x[i].getElementsByTagName("guesturl")[0].childNodes[0].nodeValue;
+            txt += "<b>Moderator:</b> <a href='" + guesturl + "' target=_'blank'>"; 
+            txt += guest + "</a><br/><br/>";  }
+
+        if ( x[i].getElementsByTagName("abstract").length > 0 ) {
+            var abstract_para = x[i].getElementsByTagName("abstract")[0].childNodes[0].nodeValue;
+            txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';  }
+        if ( x[i].getElementsByTagName("bio").length > 0 ) {
+            var bio = x[i].getElementsByTagName("bio")[0].childNodes[0].nodeValue;
+            txt += '<b>Biography:</b> ' + bio;  }
+
+        txt += '</p></div>';
+        current_txt += txt;
+    }
+    
+    document.getElementById('ifrr').innerHTML = current_txt;
 }
