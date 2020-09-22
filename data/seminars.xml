@@ -95,4 +95,15 @@
         <qa>siddhartha_srinivasa.xml</qa>
         <slides>siddhartha_srinivasa.pdf</slides>
     </talk>
+
+    <talk>
+        <speaker>Matthew Robinson</speaker>
+        <affliation>JPL</affliation>
+        <date>2 October 2020</date>
+        <title>Title Coming Soon!</title>
+        <!--<abstract>Coming soon!</abstract>
+        <bio>Coming soon!</bio>-->
+        <graphic>matthew_robinson.jpg</graphic>
+        <url>https://goodrobot.ai/</url>
+    </talk>
 </events>
