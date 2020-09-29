@@ -95,7 +95,6 @@
         <qa>siddhartha_srinivasa.xml</qa>
         <slides>siddhartha_srinivasa.pdf</slides>
     </talk>
-
     <talk>
         <speaker>Matthew Robinson</speaker>
         <affliation>JPL</affliation>
@@ -105,5 +104,22 @@
         <bio>Matthew L. Robinson is a senior member of the Robotic Systems Staff Group in the Mobility and Robotic Systems Section at the Jet Propulsion Laboratory, where he has been since 2001. He has more than 17 years of experience contributing to Mars surface missions. Recently Matt was the Deputy Manager in charge of development and delivery of the Sampling and Caching System for the NASA Mars 2020 rover Perseverance. Post launch he transitioned to Strategic Sampling Operations Lead Engineer responsible for ensuring the sampling and caching system is prepared for surface operations. Previously, Matt was the lead robotic arm systems engineer and robotic arm surface operations lead for the 2011 NASA Mars Science Laboratory rover Curiosity for which he was awarded the NASA Exceptional Achievement medal. Prior to his work on MSL, he contributed to the 2007 NASA Mars Phoenix Lander mission as the lead robotic arm flight software engineer, robotic arm engineer and surface operator. Matt has a B.S. and Ph.D. from the Department of Mechanical Engineering at the University of Notre Dame.</bio>
         <graphic>matthew_robinson.jpg</graphic>
         <url>https://www-robotics.jpl.nasa.gov/people/Matthew_Robinson/</url>
+    </talk>
+
+    <talk>
+        <speaker>Davide Scaramuzza</speaker>
+        <affliation>ETH Zurich</affliation>
+        <date>13 November 2020</date>
+        <title>Title TBA!</title>
+        <graphic>davide_scaramuzza.jpg</graphic>
+        <url>http://rpg.ifi.uzh.ch/people_scaramuzza.html</url>
+    </talk>
+    <talk>
+        <speaker>Carlotta Berry</speaker>
+        <affliation>Rose Hulman</affliation>
+        <date>1 Decemeber 2020</date>
+        <title>Title TBA!</title>
+        <graphic>carlotta_berry.jpg</graphic>
+        <url>https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html/</url>
     </talk>
 </events>
