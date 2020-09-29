@@ -100,10 +100,10 @@
         <speaker>Matthew Robinson</speaker>
         <affliation>JPL</affliation>
         <date>2 October 2020</date>
-        <title>Title Coming Soon!</title>
-        <!--<abstract>Coming soon!</abstract>
-        <bio>Coming soon!</bio>-->
+        <title>Architecting the NASA Mars 2020 Perseverance Rover Sampling and Caching System</title>
+        <abstract>While the NASA Mars 2020 rover may not be considered state of the art in robotics technology, the sampling system is at the forefront of the state of practice for robotic sampling in extreme environments. I will begin this talk with an overview of the Mars 2020 rover mission and mission objectives with a focus on the sampling and caching system. Through the course of the discussion I will highlight many of the challenges faced by operating in an extreme environment, complicated further by design constraints due to limitations on power, weight, and computational processing, and how we addressed those challenges.</abstract>
+        <bio>Matthew L. Robinson is a senior member of the Robotic Systems Staff Group in the Mobility and Robotic Systems Section at the Jet Propulsion Laboratory, where he has been since 2001. He has more than 17 years of experience contributing to Mars surface missions. Recently Matt was the Deputy Manager in charge of development and delivery of the Sampling and Caching System for the NASA Mars 2020 rover Perseverance. Post launch he transitioned to Strategic Sampling Operations Lead Engineer responsible for ensuring the sampling and caching system is prepared for surface operations. Previously, Matt was the lead robotic arm systems engineer and robotic arm surface operations lead for the 2011 NASA Mars Science Laboratory rover Curiosity for which he was awarded the NASA Exceptional Achievement medal. Prior to his work on MSL, he contributed to the 2007 NASA Mars Phoenix Lander mission as the lead robotic arm flight software engineer, robotic arm engineer and surface operator. Matt has a B.S. and Ph.D. from the Department of Mechanical Engineering at the University of Notre Dame.</bio>
         <graphic>matthew_robinson.jpg</graphic>
-        <url>https://goodrobot.ai/</url>
+        <url>https://www-robotics.jpl.nasa.gov/people/Matthew_Robinson/</url>
     </talk>
 </events>
