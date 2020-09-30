@@ -106,17 +106,31 @@
         <url>https://www-robotics.jpl.nasa.gov/people/Matthew_Robinson/</url>
     </talk>
 
-    <!--<talk>
+    <talk>
         <speaker>Davide Scaramuzza</speaker>
         <affliation>ETH Zurich</affliation>
         <date>13 November 2020</date>
         <graphic>davide_scaramuzza.jpg</graphic>
         <url>http://rpg.ifi.uzh.ch/people_scaramuzza.html</url>
-    </talk>-->
+    </talk>
+    <talk>
+        <speaker>Placeholder</speaker>
+        <affliation>Test</affliation>
+        <date>14 November 2020</date>
+        <graphic>davide_scaramuzza.jpg</graphic>
+        <url>http://rpg.ifi.uzh.ch/people_scaramuzza.html</url>
+    </talk>
     <talk>
         <speaker>Carlotta Berry</speaker>
         <affliation>Rose Hulman</affliation>
         <date>1 December 2020</date>
+        <graphic>carlotta_berry.jpg</graphic>
+        <url>https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html/</url>
+    </talk>
+    <talk>
+        <speaker>Another placeholder</speaker>
+        <affliation>test</affliation>
+        <date>2 December 2020</date>
         <graphic>carlotta_berry.jpg</graphic>
         <url>https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html/</url>
     </talk>
