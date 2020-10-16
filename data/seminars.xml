@@ -118,6 +118,8 @@
         <bio>Kirstin Petersen is an Assistant Professor in the School of Electrical and Computer Engineering at Cornell University. Her lab, the Collective Embodied Intelligence Lab, is focused on design and coordination of large robot collectives able to achieve complex behaviors beyond the reach of an individual, and corresponding studies on how social insects do so in nature. Major research topics include swarm intelligence, embodied intelligence, and autonomous construction. Before arriving at Cornell, Petersen did a postdoc with the Physical Intelligence Department at the Max Planck Institute for Intelligent Systems in Germany. She completed a PhD in 2014 in computer science at Harvard University and the Wyss Institute for Biologically Inspired Engineering. Kirstin completed her M.Sc. in modern artificial intelligence in 2008 and a B.Sc. in electro-technical engineering in 2005, both with the University of Southern Denmark. Her graduate work was featured in and on the cover of Science, she was elected among the top 25 women to know in robotics by Robohub in 2018, and was awarded the prestigious Packard Fellowship in Science and Engineering in 2019.</bio>
         <graphic>kirstin_petersen.jpg</graphic>
         <url>https://research.cornell.edu/researchers/kirstin-h-petersen</url>
+        <guest>Sabine Hauert</guest>
+        <guesturl>https://hauertlab.com/</guesturl>
     </talk>
     <talk>
         <speaker>Davide Scaramuzza</speaker>
