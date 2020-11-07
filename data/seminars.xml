@@ -124,7 +124,7 @@
     </talk>
     <talk>
         <speaker>Davide Scaramuzza</speaker>
-        <affliation>ETH Zurich</affliation>
+        <affliation>University of Zurich</affliation>
         <date>13 November 2020</date>
         <title>Autonomous, Agile Micro Drones: Perception, Learning, and Control</title>
         <abstract>Autonomous quadrotors will soon play a major role in search-and-rescue, delivery, and inspection missions, where a fast response is crucial. However, their speed and maneuverability are still far from those of birds and human pilots. High speed is particularly important: since drone battery life is usually limited to 20-30 minutes, drones need to fly faster to cover longer distances. However, to do so, they need faster sensors and algorithms. Human pilots take years to learn the skills to navigate drones. What does it take to make drones navigate as good or even better than human pilots? Autonomous, agile navigation through unknown, GPS-denied environments poses several challenges for robotics research in terms of perception, planning, learning, and control. In this talk, I will show how the combination of both model-based and machine learning methods united with the power of new, low-latency sensors, such as event cameras, can allow drones to achieve unprecedented speed and robustness by relying solely on onboard computing.</abstract>
