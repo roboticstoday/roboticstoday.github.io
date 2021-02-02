@@ -150,4 +150,63 @@
         <guest2>Maja Matarić</guest2>
         <guesturl2>https://robotics.usc.edu/~maja/index.html</guesturl2>
     </talk>
+
+
+
+    <talk>
+        <speaker>Adam Bry</speaker>
+        <affliation>Skydio</affliation>
+        <date>12 February 2021</date>
+        <graphic>adam_bry.jpg</graphic>
+        <url>https://www.linkedin.com/in/adam-bry-a5788582/</url>
+    </talk>
+    <!--<talk>
+        <speaker>TBD</speaker>
+        <affliation>TBD</affliation>
+        <date>26 February 2021</date>
+        <graphic>tbd.jpg</graphic>
+        <url>#</url>
+    </talk>-->
+    <!--<talk>
+        <speaker>Chad Jenkins</speaker>
+        <affliation>University of Michigan</affliation>
+        <date>12 March 2021</date>
+        <graphic>chad_jenkins.jpg</graphic>
+        <url>https://ocj.name/</url>
+    </talk>-->
+    <talk>
+        <speaker>Raia Hadsell</speaker>
+        <affliation>DeepMind</affliation>
+        <date>26 March 2021</date>
+        <graphic>raia_hadsell.jpg</graphic>
+        <url>http://raiahadsell.com/index.html</url>
+    </talk>
+    <!--<talk>
+        <speaker>Amanda Protok</speaker>
+        <affliation>Cambridge University</affliation>
+        <date>9 April 2021</date>
+        <graphic>amanda_protok.jpg</graphic>
+        <url>https://www.proroklab.org/</url>
+    </talk>
+    <talk>
+        <speaker>Koushil Sreenath</speaker>
+        <affliation>UC Berkeley</affliation>
+        <date>23 April 2021</date>
+        <graphic>koushil_sreenath.jpg</graphic>
+        <url>https://me.berkeley.edu/people/koushil-sreenath/</url>
+    </talk>-->
+    <!--<talk>
+        <speaker>TBD</speaker>
+        <affliation>TBD</affliation>
+        <date>7 May 2021</date>
+        <graphic>tbd.jpg</graphic>
+        <url>#</url>
+    </talk>-->
+    <!--<talk>
+        <speaker>TBD</speaker>
+        <affliation>TBD</affliation>
+        <date>21 May 2021</date>
+        <graphic>tbd.jpg</graphic>
+        <url>#</url>
+    </talk>-->
 </events>
