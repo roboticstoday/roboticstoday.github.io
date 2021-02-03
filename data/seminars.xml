@@ -181,7 +181,7 @@
         <graphic>raia_hadsell.jpg</graphic>
         <url>http://raiahadsell.com/index.html</url>
     </talk>
-    <!--<talk>
+    <talk>
         <speaker>Amanda Protok</speaker>
         <affliation>Cambridge University</affliation>
         <date>9 April 2021</date>
@@ -194,7 +194,7 @@
         <date>23 April 2021</date>
         <graphic>koushil_sreenath.jpg</graphic>
         <url>https://me.berkeley.edu/people/koushil-sreenath/</url>
-    </talk>-->
+    </talk>
     <!--<talk>
         <speaker>TBD</speaker>
         <affliation>TBD</affliation>
