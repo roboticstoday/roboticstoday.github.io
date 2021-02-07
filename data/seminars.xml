@@ -156,9 +156,16 @@
     <talk>
         <speaker>Adam Bry</speaker>
         <affliation>Skydio</affliation>
+        <speaker2>Hayk Martiros</speaker2>
+        <affliation2>Skydio</affliation2>
         <date>12 February 2021</date>
-        <graphic>adam_bry.jpg</graphic>
+        <title>Skydio Autonomy: Research in Robust Visual Navigation and Real-Time 3D Reconstruction</title>
+        <abstract>Skydio is the leading US drone company and the world leader in autonomous flight. Our drones are used for everything from capturing amazing video, to inspecting bridges, to tracking progress on construction sites. At the core of our products is a vision-based autonomy system with seven years of development at Skydio, drawing on decades of academic research. This system pushes the state of the art in deep learning, geometric computer vision, motion planning, and control with a particular focus on real-world robustness. Drones encounter extreme visual scenarios not typically considered by academia nor encountered by cars, ground robots, or AR applications. They are commonly flown in scenes with few or no semantic priors and must deftly navigate thin objects, extreme lighting, camera artifacts, motion blur, textureless surfaces, vibrations, dirt, camera smudges, and fog. These challenges are daunting for classical vision - because photometric signals are simply not consistent and for learning-based methods - because there is no ground truth for direct supervision of deep networks. In this talk we'll take a detailed look at these issues and the algorithms we've developed to tackle them. We will also cover the new capabilities on top of our core navigation engine to autonomously map complex scenes and capture all surfaces, by performing real-time 3D reconstruction across multiple flights.</abstract>
+        <bio>Adam is co-founder and CEO at Skydio. He has two decades of experience with small UAS, starting as a national champion R/C airplane aerobatics pilot. As a grad student at MIT, he did award winning research that pioneered autonomous flight for drones, transferring much of what he learned as an R/C pilot into software that enables drones to fly themselves. Adam co-founded Google’s drone delivery project. He currently serves on the FAA’s Drone Advisory Committee. He holds a BS in Mechanical Engineering from Olin College and an SM in Aero/Astro from MIT. He has co-authored numerous technical papers and patents, and was also recognized on MIT’s TR35 list for young innovators.</bio>
+        <bio2>Hayk was the first engineering hire at Skydio and he leads the autonomy team. He is an experienced roboticist who develops robust approaches to computer vision, deep learning, nonlinear optimization, and motion planning to bring intelligent robots into the mainstream. His team’s state of the art work in UAV visual localization, obstacle avoidance, and navigation of complex scenarios is at the core of every Skydio drone. He also has an interest in systems architecture and symbolic computation. His previous works include novel hexapedal robots, collaboration between robot arms, micro-robot factories, solar panel farms, and self-balancing motorcycles. Hayk is a graduate of Stanford University and Princeton University.</bio2>
+        <graphic>skydio.jpg</graphic>
         <url>https://www.linkedin.com/in/adam-bry-a5788582/</url>
+        <url2>https://haykmartiros.com/about</url2>
     </talk>
     <!--<talk>
         <speaker>TBD</speaker>

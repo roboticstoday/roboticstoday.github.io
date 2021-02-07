@@ -64,7 +64,17 @@ function seminarLoad(timeStatus) {
             }
 
             txt += '<h3>' + title + '</h3>';
-            txt += '<h3>' + date + ':<a href="' + url + '"target="_blank">' + speaker + ' </a>(' + affliation + ')</h3><br/>';
+            txt += '<h3>' + date + ': <a href="' + url + '" target="_blank">' + speaker + ' </a>(' + affliation + ')';
+
+            // Second speaker check
+            if ( x[i].getElementsByTagName("speaker2").length > 0 ) {
+                var speaker2 = x[i].getElementsByTagName("speaker2")[0].childNodes[0].nodeValue;
+                var affliation2 = x[i].getElementsByTagName("affliation2")[0].childNodes[0].nodeValue;
+                var url2 = x[i].getElementsByTagName("url2")[0].childNodes[0].nodeValue;
+                txt += ' and <a href="' + url2 + '" target="_blank">' + speaker2 + ' </a>(' + affliation2 + ')';
+            }
+            txt += '</h3><br/>';
+
        
             if ( x[i].getElementsByTagName("slides").length > 0) {
                 var slides = x[i].getElementsByTagName("slides")[0].childNodes[0].nodeValue;
@@ -73,6 +83,13 @@ function seminarLoad(timeStatus) {
 
             txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/><br/>';
             txt += '<b>Biography:</b> ' + bio + '<br/>';
+
+            // Second speaker bio
+            if ( x[i].getElementsByTagName("bio2").length > 0 ) {
+                var bio2 = x[i].getElementsByTagName("bio2")[0].childNodes[0].nodeValue;
+                txt += '<br/><br/><b>Biography:</b> ' + bio2;
+            }
+
 
             if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
@@ -107,7 +124,18 @@ function seminarLoad(timeStatus) {
                 var title = x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
                 txt += '<h3>' + title + '</h3>';
             }
-            txt += '<h3>' + date + ': <a href="' + url + '" target="_blank">' + speaker + ' </a>(' + affliation + ')</h3><br/>';
+            txt += '<h3>' + date + ': <a href="' + url + '" target="_blank">' + speaker + ' </a>(' + affliation + ')';
+
+            // Second speaker check
+            if ( x[i].getElementsByTagName("speaker2").length > 0 ) { 
+                var speaker2 = x[i].getElementsByTagName("speaker2")[0].childNodes[0].nodeValue;
+                var affliation2 = x[i].getElementsByTagName("affliation2")[0].childNodes[0].nodeValue;
+                var url2 = x[i].getElementsByTagName("url2")[0].childNodes[0].nodeValue;
+                txt += ' and <a href="' + url2 + '" target="_blank">' + speaker2 + ' </a>(' + affliation2 + ')';
+            }
+            txt += '</h3><br/>';
+            
+
             if ( x[i].getElementsByTagName("abstract").length > 0 ) {
                 var abstract_para = x[i].getElementsByTagName("abstract")[0].childNodes[0].nodeValue;
                 txt += '<p><b>Abstract:</b> ' + abstract_para + '<br/><br/>';
@@ -116,6 +144,13 @@ function seminarLoad(timeStatus) {
                 var bio = x[i].getElementsByTagName("bio")[0].childNodes[0].nodeValue;
                 txt += '<b>Biography:</b> ' + bio;
             }
+
+            // Second speaker bio
+            if ( x[i].getElementsByTagName("bio2").length > 0 ) {
+                var bio2 = x[i].getElementsByTagName("bio2")[0].childNodes[0].nodeValue;
+                txt += '<br/><br/><b>Biography:</b> ' + bio2;
+            }
+
             if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
