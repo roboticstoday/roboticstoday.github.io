@@ -174,13 +174,13 @@
         <graphic>tbd.jpg</graphic>
         <url>#</url>
     </talk>-->
-    <!--<talk>
+    <talk>
         <speaker>Chad Jenkins</speaker>
         <affliation>University of Michigan</affliation>
         <date>12 March 2021</date>
         <graphic>chad_jenkins.jpg</graphic>
         <url>https://ocj.name/</url>
-    </talk>-->
+    </talk>
     <talk>
         <speaker>Raia Hadsell</speaker>
         <affliation>DeepMind</affliation>
@@ -209,11 +209,11 @@
         <graphic>tbd.jpg</graphic>
         <url>#</url>
     </talk>-->
-    <!--<talk>
-        <speaker>TBD</speaker>
-        <affliation>TBD</affliation>
+    <talk>
+        <speaker>Antonio Bicchi</speaker>
+        <affliation>Istituto Italiano di Tecnologia</affliation>
         <date>21 May 2021</date>
-        <graphic>tbd.jpg</graphic>
-        <url>#</url>
-    </talk>-->
+        <graphic>antonio_bicchi.jpg</graphic>
+        <url>https://www.iit.it/people/antonio-bicchi</url>
+    </talk>
 </events>
