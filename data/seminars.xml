@@ -150,9 +150,6 @@
         <guest2>Maja Matarić</guest2>
         <guesturl2>https://robotics.usc.edu/~maja/index.html</guesturl2>
     </talk>
-
-
-
     <talk>
         <speaker>Adam Bry</speaker>
         <affliation>Skydio</affliation>
@@ -166,6 +163,10 @@
         <graphic>skydio.jpg</graphic>
         <url>https://www.linkedin.com/in/adam-bry-a5788582/</url>
         <url2>https://haykmartiros.com/about</url2>
+        <guest>Davide Scaramuzza</guest>
+        <guesturl>http://rpg.ifi.uzh.ch/people_scaramuzza.html</guesturl>
+        <guest2>Margaritha Chli</guest2>
+        <guesturl2>http://margaritachli.com/</guesturl2>
     </talk>
     <!--<talk>
         <speaker>TBD</speaker>
