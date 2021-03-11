@@ -2,216 +2,252 @@
     <talk>
         <speaker>Andrew Davison</speaker>
         <affliation>Imperial College London</affliation>
+        <url>https://www.doc.ic.ac.uk/~ajd/</url>
         <date>15 May 2020</date>
         <title>From SLAM to Spatial AI</title>
         <abstract>To enable the next generation of smart robots and devices which can truly interact with their environments, Simultaneous Localisation and Mapping (SLAM) will progressively develop into a general real-time geometric and semantic `Spatial AI' perception capability. I will give many examples from our work on gradually increasing visual SLAM capability over the years. However, much research must still be done to achieve true Spatial AI performance. A key issue is how estimation and machine learning components can be used and trained together as we continue to search for the best long-term scene representations to enable intelligent interaction.  Further, to enable the performance and efficiency required by real products, computer vision algorithms must be developed together with the sensors and processors which form full systems, and I will cover research on vision algorithms for non-standard visual sensors and graph-based computing architectures.</abstract>
         <bio>Andrew Davison is Professor of Robot Vision and Director of the Dyson Robotics Laboratory at Imperial College London. His long-term research focus is on SLAM (Simultaneous Localisation and Mapping) and its evolution towards general `Spatial AI': computer vision algorithms which enable robots and other artificial devices to map, localise within and ultimately understand and interact with the 3D spaces around them. With his research group and collaborators he has consistently developed and demonstrated breakthrough systems, including MonoSLAM, KinectFusion, SLAM++ and CodeSLAM, and recent prizes include Best Paper at ECCV 2016 and Best Paper Honourable Mention at CVPR 2018. He has also had strong involvement in taking this technology into real applications, in particular through his work with Dyson on the design of the visual mapping system inside the Dyson 360 Eye robot vacuum cleaner and as co-founder of applied SLAM start-up SLAMcore. He was elected Fellow of the Royal Academy of Engineering in 2017.</bio>
         <graphic>andrew_davison.jpg</graphic>
         <video>https://www.youtube.com/embed/lGIM2WVp5t0?rel0&amp;controls=0&amp;showinfo=0</video>
-        <url>https://www.doc.ic.ac.uk/~ajd/</url>
-        <guest>John Leonard</guest>
-        <guesturl>http://marinerobotics.mit.edu/john-j-leonard</guesturl>
         <qa>andrew_davison.xml</qa>
+        <guest>
+            <gname>John Leonard</gname>
+            <gurl>http://marinerobotics.mit.edu/john-j-leonard</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Leslie Kaelbling</speaker>
         <affliation>MIT</affliation>
+        <url>https://people.csail.mit.edu/lpk/</url>
         <date>22 May 2020</date>
         <title>Doing for our robots what nature did for us</title>
         <abstract>We, as robot engineers, have to think hard about our role in the design of robots and how it interacts with learning, both in "the factory" (that is, at engineering time) and in "the wild" (that is, when the robot is delivered to a customer). I will share some general thoughts about the strategies for robot design and then talk in detail about some work I have been involved in, both in the design of an overall architecture for an intelligent robot and in strategies for learning to integrate new skills into the repertoire of an already competent robot.</abstract>
         <bio>Leslie is a Professor at MIT. She has an undergraduate degree in Philosophy and a PhD in Computer Science from Stanford, and was previously on the faculty at Brown University. She was the founding editor-in-chief of the Journal of Machine Learning Research. Her research agenda is to make intelligent robots using methods including estimation, learning, planning, and reasoning. She is not a robot.</bio>
         <graphic>leslie_kaelbling.jpg</graphic>
         <video>https://www.youtube.com/embed/5R-xL9YmdR0?rel0&amp;controls=0&amp;showinfo=0</video>
-        <url>https://people.csail.mit.edu/lpk/</url>
     </talk>
     <talk>
         <speaker>Allison Okamura</speaker>
         <affliation>Stanford</affliation>
+        <url>https://profiles.stanford.edu/allison-okamura</url>
         <date>5 June 2020</date>
         <title>Soft Robots for Humanity</title>
         <abstract>Traditional robotic manipulators are constructed from rigid links and localized joints – this enables large forces and workspaces, but restricts access and creates safety challenges. In contrast, many soft robots have a volumetric form factor and continuous bending that takes advantage of their flexible, deformable materials to access difficult spaces, but these same mechanical properties can hinder manipulation. This talk will examine robotic systems that achieve the best of both worlds by leveraging both softness and rigidity for novel shape control, a compliant interface to the human body, and accessing hard-to-reach locations. Knowing when to exploit and when to alter some of the inherent consequences of softness is key to making soft robots that can be deployed to benefit human health, safety, and quality of life.</abstract>
         <bio>Allison M. Okamura received the BS degree from the University of California at Berkeley and the MS and PhD degrees from Stanford University, all in mechanical engineering. She is currently Professor in the mechanical engineering department at Stanford University, with a courtesy appointment in computer science. She is an IEEE Fellow and Editor-in-Chief of the journal IEEE Robotics and Automation Letters. Her awards include the 2019 IEEE Robotics and Automation Society Distinguished Service Award, 2016 Duca Family University Fellow in Undergraduate Education, 2009 IEEE Technical Committee on Haptics Early Career Award, 2005 IEEE Robotics and Automation Society Early Academic Career Award, and 2004 NSF CAREER Award. Her academic interests include haptics, teleoperation, virtual environments and simulators, medical robotics, neuromechanics and rehabilitation, prosthetics, and engineering education. Outside academia, she enjoys spending time with her husband and two children, running, and playing ice hockey.</bio>
         <graphic>allison_okamura.jpg</graphic>
         <video>https://www.youtube.com/embed/N6_jmD_89qM?rel0&amp;controls=0&amp;showinfo=0</video>
-        <url>https://profiles.stanford.edu/allison-okamura</url>
-        <guest>Mark Yim</guest>
-        <guesturl>https://www.grasp.upenn.edu/people/mark-yim</guesturl>
+        <guest>
+            <gname>Mark Yim</gname>
+            <gurl>https://www.grasp.upenn.edu/people/mark-yim</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Anca Dragan</speaker>
         <affliation>UC Berkeley</affliation>
+        <url>https://people.eecs.berkeley.edu/~anca/</url>
         <date>12 June 2020</date>
         <title>Optimizing Intended Reward Functions: Extracting all the right information from all the right places</title>
-        <abstract>AI work tends to focus on how to optimize a specified reward function, but rewards that lead to the desired behavior consistently are not so easy to specify. Rather than optimizing specified reward, which is already hard, robots have the much harder job of optimizing intended reward. While the specified reward does not have as much information as we make our robots pretend, the good news is that humans constantly leak information about what the robot should optimize. In this talk, we will explore how to read the right amount of information from different types of human behavior -- and even the lack thereof. </abstract>
+        <abstract>AI work tends to focus on how to optimize a specified reward function, but rewards that lead to the desired behavior consistently are not so easy to specify. Rather than optimizing specified reward, which is already hard, robots have the much harder job of optimizing intended reward. While the specified reward does not have as much information as we make our robots pretend, the good news is that humans constantly leak information about what the robot should optimize. In this talk, we will explore how to read the right amount of information from different types of human behavior - and even the lack thereof. </abstract>
         <bio>Anca Dragan is an Assistant Professor in EECS at UC Berkeley, where she runs the InterACT lab. Her goal is to enable robots to work with, around, and in support of people. She works on algorithms that enable robots to a) coordinate with people in shared spaces, and b) learn what people want them to do. Anca did her PhD in the Robotics Institute at Carnegie Mellon University on legible motion planning. At Berkeley, she helped found the Berkeley AI Research Lab, is a co-PI for the Center for Human-Compatible AI, and has been honored by the Presidential Early Career Award for Scientists and Engineers (PECASE), the Sloan fellowship, the NSF CAREER award, the Okawa award, MIT's TR35, and an IJCAI Early Career Spotlight.</bio>
         <graphic>anca_dragan.jpg</graphic>
         <video>https://www.youtube.com/embed/6pKv9YUCFkw?rel0&amp;controls=0&amp;showinfo=0</video>
-        <url>https://people.eecs.berkeley.edu/~anca/</url>
-        <guest>Ayanna Howard</guest>
-        <guesturl>https://howard.ece.gatech.edu/</guesturl>
+        <guest>
+            <gname>Ayanna Howard</gname>
+            <gurl>https://howard.ece.gatech.edu/</gurl>
+        </guest>
     </talk>
-    <talk>
+     <talk>
         <speaker>Scott Kuindersma</speaker>
         <affliation>Boston Dynamics</affliation>
+        <url>https://scottk.seas.harvard.edu/</url>
         <date>26 June 2020</date>
         <title>Recent Progress on Atlas, the World’s Most Dynamic Humanoid Robot</title>
         <abstract>The Atlas project at Boston Dynamics aims to make advances in robot hardware and software that allow us to match or exceed average human performance in dynamic mobility tasks. In this talk, I will give an overview of how we are using optimization to rapidly create behaviors for Atlas and share some recent examples of applying these ideas to perception-driven parkour.</abstract>
         <bio>Scott Kuindersma is a Research Scientist at Boston Dynamics where he leads a team of control engineers who are creating algorithms for coordinated, athletic, and adaptive behavior on Atlas. Previously he held positions as an Assistant Professor of Engineering and Computer Science at Harvard University and a postdoc at MIT CSAIL where he was the controls lead for the MIT DARPA Robotics Challenge Team.</bio>
         <graphic>scott_kuindersma.jpg</graphic>
         <video>https://www.youtube.com/embed/EGABAx52GKI?rel0&amp;controls=0&amp;showinfo=0</video>
-        <url>https://scottk.seas.harvard.edu/</url>
-        <guest>Sangbae Kim</guest>
-        <guesturl>https://meche.mit.edu/people/faculty/SANGBAE@MIT.EDU</guesturl>
+        <guest>
+            <gname>Sangbae Kim</gname>
+            <gurl>https://meche.mit.edu/people/faculty/SANGBAE@MIT.EDU</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Naira Hovakimyan</speaker>
         <affliation>UIUC</affliation>
+        <url>https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/</url>
         <date>10 July 2020</date>
         <title>Safe Learning and Control with L1 Adaptation</title>
         <abstract>Learning-based control paradigms have seen many success stories with various robots in recent years. However, as these robots prepare to enter the real world, operating safely in the presence of imperfect model knowledge and external disturbances is going to be vital to ensure mission success. In the first part of the talk, we present an overview of L1 adaptive control, how it enables safety in autonomous robots, and discuss some of its success stories in the aerospace industry. In the second part of the talk, we present some of our recent results that explore various architectures with L1 adaptive control while guaranteeing performance and robustness throughout the learning process.</abstract>
         <bio>Naira Hovakimyan received her MS degree in Theoretical Mechanics and Applied Mathematics in 1988 from Yerevan State University in Armenia. She got her Ph.D. in Physics and Mathematics in 1992 from the Institute of Applied Mathematics of Russian Academy of Sciences in Moscow. She is currently a W. Grafton and Lillian B. Wilkins Professor of Mechanical Science and Engineering at UIUC. In 2015 she was named inaugural director for Intelligent Robotics Lab of Coordinated Science Laboratory at UIUC. She has co-authored two books, six patents and more than 400 refereed publications. She was the recipient of the SICE International scholarship for the best paper of a young investigator in the VII ISDG Symposium (Japan, 1996), the 2011 recipient of AIAA Mechanics and Control of Flight Award, the 2015 recipient of SWE Achievement Award, the 2017 recipient of IEEE CSS Award for Technical Excellence in Aerospace Controls, and the 2019 recipient of AIAA Pendray Aerospace Literature Award. In 2014 she was awarded the Humboldt prize for her lifetime achievements. She is Fellow and life member of AIAA and a Fellow of IEEE. She is cofounder and chief scientist of IntelinAir. Her work in robotics for elderly care was featured in the New York Times, on Fox TV and CNBC. Her research interests are in control, estimation and optimization, autonomous systems, game theory and their broad applications across various industries.</bio>
         <graphic>naira_hovakimyan.jpg</graphic>
-        <url>https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/</url>
         <video>https://www.youtube.com/embed/MY9i9RCiPdU?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Claire Tomlin</guest>
-        <guesturl>https://people.eecs.berkeley.edu/~tomlin/</guesturl>
-        <guest2>Jonathan How</guest2>
-        <guesturl2>https://www.mit.edu/~jhow/</guesturl2>
+        <guest>
+            <gname>Claire Tomlin</gname>
+            <gurl>https://people.eecs.berkeley.edu/~tomlin/</gurl>
+        </guest>
+        <guest>
+            <gname>Jonathan How</gname>
+            <gurl>https://www.mit.edu/~jhow/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Sidd Srinivasa</speaker>
         <affliation>UW</affliation>
+        <url>https://goodrobot.ai/</url>
         <date>24 July 2020</date>
         <title>New Connections between Motion Planning and Machine Learning</title>
         <abstract>Any time a robot needs to move, a motion needs to be planned. But yet roboticists often treat motion planning as a black box, and barely understand fundamental algorithms like A*. In this talk, I’ll start with some intuition about search, via the absurd analogy of amoebas. I’ll use the analogy to describe the first-ever edge-optimal A*-like search algorithm we invented. I’ll then cast anytime search with experience (what we call the Experienced Piano Movers’ Problem) as an instance of Bayesian Reinforcement Learning, enabling us to derive the first-ever sublinear regret bounds for anytime motion planning. I’ll end with some open problems I want you all to solve, so I can retire in peace.</abstract>
         <bio>Siddhartha Srinivasa is the Boeing Endowed Professor at The Paul G. Allen School of Computer Science and Engineering at the University of Washington, and an IEEE Fellow. He is a full-stack roboticist, with the goal of enabling robots to perform complex manipulation tasks under uncertainty and clutter, with and around people. To this end, he founded the Personal Robotics Lab in 2005. He was a PI on the Quality of Life Technologies NSF ERC, DARPA ARM-S. RCTA and the DARPA Robotics Challenge, has built several robots (HERB, ADA, CHIMP, MuSHR), and has written software frameworks (OpenRAVE, DART) and best-paper award winning algorithms (CBiRRT, CHOMP, BIT*, Legibility) used extensively by roboticists around the world. Sidd received a B.Tech in Mechanical Engineering from the Indian Institute of Technology Madras in 1999, and a PhD in 2005 from the Robotics Institute at Carnegie Mellon University. He played badminton and tennis for IIT Madras, captained the CMU squash team, and lately runs competitively.</bio>
         <graphic>sidd_srinivasa.jpg</graphic>
-        <url>https://goodrobot.ai/</url>
         <video>https://www.youtube.com/embed/adrVlZegiR0?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Kostas Bekris</guest>
-        <guesturl>https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/</guesturl>
-        <guest2>Chinwe Ekenna</guest2>
-        <guesturl2>https://www.albany.edu/~CE392242/</guesturl2>
+        <guest>
+            <gname>Kostas Bekris</gname>
+            <gurl>https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/</gurl>
+        </guest>
+        <guest>
+            <gname>Chinwe Ekenna</gname>
+            <gurl>https://www.albany.edu/~CE392242/</gurl>
+        </guest>
         <qa>siddhartha_srinivasa.xml</qa>
         <slides>siddhartha_srinivasa.pdf</slides>
     </talk>
     <talk>
         <speaker>Matthew Robinson</speaker>
         <affliation>JPL</affliation>
+        <url>https://www-robotics.jpl.nasa.gov/people/Matthew_Robinson/</url>
         <date>2 October 2020</date>
         <title>Architecting the NASA Mars 2020 Perseverance Rover Sampling and Caching System</title>
         <abstract>While the NASA Mars 2020 rover may not be considered state of the art in robotics technology, the sampling system is at the forefront of the state of practice for robotic sampling in extreme environments. I will begin this talk with an overview of the Mars 2020 rover mission and mission objectives with a focus on the sampling and caching system. Through the course of the discussion I will highlight many of the challenges faced by operating in an extreme environment, complicated further by design constraints due to limitations on power, weight, and computational processing, and how we addressed those challenges.</abstract>
         <bio>Matthew L. Robinson is a senior member of the Robotic Systems Staff Group in the Mobility and Robotic Systems Section at the Jet Propulsion Laboratory, where he has been since 2001. He has more than 17 years of experience contributing to Mars surface missions. Recently Matt was the Deputy Manager in charge of development and delivery of the Sampling and Caching System for the NASA Mars 2020 rover Perseverance. Post launch he transitioned to Strategic Sampling Operations Lead Engineer responsible for ensuring the sampling and caching system is prepared for surface operations. Previously, Matt was the lead robotic arm systems engineer and robotic arm surface operations lead for the 2011 NASA Mars Science Laboratory rover Curiosity for which he was awarded the NASA Exceptional Achievement medal. Prior to his work on MSL, he contributed to the 2007 NASA Mars Phoenix Lander mission as the lead robotic arm flight software engineer, robotic arm engineer and surface operator. Matt has a B.S. and Ph.D. from the Department of Mechanical Engineering at the University of Notre Dame.</bio>
         <graphic>matthew_robinson.jpg</graphic>
-        <url>https://www-robotics.jpl.nasa.gov/people/Matthew_Robinson/</url>
         <video>https://www.youtube.com/embed/DvjL543QNq0?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Behçet Açıkmeşe</guest>
-        <guesturl>https://www.aa.washington.edu/facultyfinder/behcet-acikmese</guesturl>
+        <guest>
+            <gname>Behçet Açıkmeşe</gname>
+            <gurl>https://www.aa.washington.edu/facultyfinder/behcet-acikmese</gurl>
+        </guest>
     </talk>
-
     <talk>
         <speaker>Kirstin Petersen</speaker>
         <affliation>Cornell</affliation>
+        <url>https://research.cornell.edu/researchers/kirstin-h-petersen</url>
         <date>16 October 2020</date>
         <title>Form, Function, and Robotic Superorganisms</title>
         <abstract>Natural swarms exhibit sophisticated colony level behaviors with remarkably scalable and error tolerant properties. Their evolutionary success stems from more than just intelligent individuals, it hinges on their morphology, their physical interactions, and the way they shape and leverage their environment. Mound-building termites, for instance, are believed to use their own body as a template for construction; the resulting dirt mound serves, among many things, to regulate volatile pheromone cues which in turn guide further construction and colony growth. Throughout this talk I will argue how we can leverage the same principles to achieve greater performance in robot collectives, through hardware and software co-development, and by integrating the environment into the design process. I will give examples of systems from our lab that exploit form, function, and the concept of robotic superorganisms, spanning collective robotic construction inspired by African mound-building termites, ongoing work towards slime-mold inspired soft robot collectives, and initial studies of bio-hybrid collectives of honey bees.</abstract>
         <bio>Kirstin Petersen is an Assistant Professor in the School of Electrical and Computer Engineering at Cornell University. Her lab, the Collective Embodied Intelligence Lab, is focused on design and coordination of large robot collectives able to achieve complex behaviors beyond the reach of an individual, and corresponding studies on how social insects do so in nature. Major research topics include swarm intelligence, embodied intelligence, and autonomous construction. Before arriving at Cornell, Petersen did a postdoc with the Physical Intelligence Department at the Max Planck Institute for Intelligent Systems in Germany. She completed a PhD in 2014 in computer science at Harvard University and the Wyss Institute for Biologically Inspired Engineering. Kirstin completed her M.Sc. in modern artificial intelligence in 2008 and a B.Sc. in electro-technical engineering in 2005, both with the University of Southern Denmark. Her graduate work was featured in and on the cover of Science, she was elected among the top 25 women to know in robotics by Robohub in 2018, and was awarded the prestigious Packard Fellowship in Science and Engineering in 2019.</bio>
         <graphic>kirstin_petersen.jpg</graphic>
-        <url>https://research.cornell.edu/researchers/kirstin-h-petersen</url>
         <video>https://www.youtube.com/embed/1u7XOunLzto?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Sabine Hauert</guest>
-        <guesturl>https://hauertlab.com/</guesturl>
+        <guest>
+            <gname>Sabine Hauert</gname>
+            <gurl>https://hauertlab.com/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Davide Scaramuzza</speaker>
         <affliation>University of Zurich</affliation>
+        <url>http://rpg.ifi.uzh.ch/people_scaramuzza.html</url>
         <date>13 November 2020</date>
         <title>Autonomous, Agile Micro Drones: Perception, Learning, and Control</title>
         <abstract>Autonomous quadrotors will soon play a major role in search-and-rescue, delivery, and inspection missions, where a fast response is crucial. However, their speed and maneuverability are still far from those of birds and human pilots. High speed is particularly important: since drone battery life is usually limited to 20-30 minutes, drones need to fly faster to cover longer distances. However, to do so, they need faster sensors and algorithms. Human pilots take years to learn the skills to navigate drones. What does it take to make drones navigate as good or even better than human pilots? Autonomous, agile navigation through unknown, GPS-denied environments poses several challenges for robotics research in terms of perception, planning, learning, and control. In this talk, I will show how the combination of both model-based and machine learning methods united with the power of new, low-latency sensors, such as event cameras, can allow drones to achieve unprecedented speed and robustness by relying solely on onboard computing.</abstract>
         <bio>Davide Scaramuzza (Italian) is a Professor of Robotics and Perception at both departments of Informatics (University of Zurich) and Neuroinformatics (joint between the University of Zurich and ETH Zurich), where he directs the Robotics and Perception Group. His research lies at the intersection of robotics, computer vision, and machine learning, using standard cameras and event cameras, and aims to enable autonomous, agile navigation of micro drones in search and rescue applications. After a Ph.D. at ETH Zurich (with Roland Siegwart) and a postdoc at the University of Pennsylvania (with Vijay Kumar and Kostas Daniilidis), from 2009 to 2012, he led the European project sFly, which introduced the PX4 autopilot and pioneered visual-SLAM-based autonomous navigation of micro drones in GPS-denied environments. From 2015 to 2018, he was part of the DARPA FLA program (Fast Lightweight Autonomy) to research autonomous, agile navigation of micro drones in GPS-denied environments. In 2018, his team won the IROS 2018 Autonomous Drone Race, and in 2019 it ranked second in the AlphaPilot Drone Racing world championship. For his research contributions to autonomous, vision-based, drone navigation and event cameras, he won prestigious awards, such as a European Research Council (ERC) Consolidator Grant, the IEEE Robotics and Automation Society Early Career Award, an SNSF-ERC Starting Grant, a Google Research Award, the KUKA Innovation Award, two Qualcomm Innovation Fellowships, the European Young Research Award, the Misha Mahowald Neuromorphic Engineering Award, and several paper awards. He co-authored the book "Introduction to Autonomous Mobile Robots" (published by MIT Press; 10,000 copies sold) and more than 100 papers on robotics and perception published in top-ranked journals (Science Robotics, TRO, T-PAMI, IJCV, IJRR) and conferences (RSS, ICRA, CVPR, ICCV, CORL, NeurIPS). He has served as a consultant for the United Nations' International Atomic Energy Agency's Fukushima Action Plan on Nuclear Safety and several drones and computer-vision companies, to which he has also transferred research results. In 2015, he cofounded Zurich-Eye, today Facebook Zurich, which developed the visual-inertial SLAM system running in Oculus Quest VR headsets. He was also the strategic advisor of Dacuda, today Magic Leap Zurich. In 2020, he cofounded SUIND, which develops camera-based safety solutions for commercial drones. Many aspects of his research have been prominently featured in wider media, such as The New York Times, BBC News, Discovery Channel, La Repubblica, Neue Zurcher Zeitung, and also in technology-focused media, such as IEEE Spectrum, MIT Technology Review, Tech Crunch, Wired, The Verge.</bio>
         <graphic>davide_scaramuzza.jpg</graphic>
-        <url>http://rpg.ifi.uzh.ch/people_scaramuzza.html</url>
         <video>https://www.youtube.com/embed/LhO5WSFH7ZY?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Angela Schoellig</guest>
-        <guesturl>https://www.dynsyslab.org/prof-angela-schoellig/</guesturl>
+        <guest>
+            <gname>Angela Schoellig</gname>
+            <gurl>https://www.dynsyslab.org/prof-angela-schoellig/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Carlotta Berry</speaker>
         <affliation>Rose Hulman</affliation>
+        <url>https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html</url>
         <date>11 December 2020</date>
         <title>Robotics Education to Robotics Research</title>
         <abstract>This presentation will summarize the multidisciplinary benefits of robotics in engineering education. I will describe how it is used at a primarily undergraduate institution to encourage robotics education and research. There will be a review of how robotics is used in several courses to illustrate engineering design concepts as well as controls, artificial intelligence, human-robot interaction, and software development. This will be a multimedia presentation of student projects in freshman design, mobile robotics, independent research and graduate theses.</abstract>
         <bio>Carlotta A. Berry is a Professor in the Department of Electrical and Computer Engineering at Rose-Hulman Institute of Technology. She has a bachelor’s degree in mathematics from Spelman College, bachelor’s degree in electrical engineering from Georgia Institute of Technology, master’s in electrical engineering from Wayne State University, and PhD from Vanderbilt University. She is one of a team of faculty in ECE, ME and CSSE at Rose-Hulman to create and direct the first multidisciplinary minor in robotics. She is the Co-Director of the NSF S-STEM Rose Building Undergraduate Diversity (ROSE-BUD) Program and advisor for the National Society of Black Engineers. She was previously the President of the Technical Editor Board for the ASEE Computers in Education Journal. Dr. Berry has been selected as one of 30 Women in Robotics You Need to Know About 2020 by robohub.org, Reinvented Magazine Interview of the Year Award on Purpose and Passion, Women and Hi Tech Leading Light Award You Inspire Me and Insight Into Diversity Inspiring Women in STEM. She has taught undergraduate courses in Human-Robot Interaction, Mobile Robotics, circuits, controls, signals and system, freshman and senior design. Her research interests are in robotics education, interface design, human-robot interaction, and increasing underrepresented populations in STEM fields. She has a special passion for diversifying the engineering profession by encouraging more women and underrepresented minorities to pursue undergraduate and graduate degrees. She feels that the profession should reflect the world that we live in in order to solve the unique problems that we face.</bio>
         <graphic>carlotta_berry.jpg</graphic>
-        <url>https://www.rose-hulman.edu/academics/faculty/berry-carlotta-berry123.html</url>
         <video>https://www.youtube.com/embed/NASAILDmheI?rel0&amp;controls=0&amp;showinfo=0</video>
-        <guest>Sheri Sheppard</guest>
-        <guesturl>https://engineering.stanford.edu/people/sheri-d-sheppard</guesturl>
-        <guest2>Maja Matarić</guest2>
-        <guesturl2>https://robotics.usc.edu/~maja/index.html</guesturl2>
+        <guest>
+            <gname>Sheri Sheppard</gname>
+            <gurl>https://engineering.stanford.edu/people/sheri-d-sheppard</gurl>
+        </guest>
+        <guest>
+            <gname>Maja Matarić</gname>
+            <gurl>https://robotics.usc.edu/~maja/index.html</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Adam Bry</speaker>
         <affliation>Skydio</affliation>
+        <url>https://www.linkedin.com/in/adam-bry-a5788582/</url>
         <speaker2>Hayk Martiros</speaker2>
         <affliation2>Skydio</affliation2>
+        <url2>https://haykmartiros.com/about</url2>
         <date>12 February 2021</date>
         <title>Skydio Autonomy: Research in Robust Visual Navigation and Real-Time 3D Reconstruction</title>
         <abstract>Skydio is the leading US drone company and the world leader in autonomous flight. Our drones are used for everything from capturing amazing video, to inspecting bridges, to tracking progress on construction sites. At the core of our products is a vision-based autonomy system with seven years of development at Skydio, drawing on decades of academic research. This system pushes the state of the art in deep learning, geometric computer vision, motion planning, and control with a particular focus on real-world robustness. Drones encounter extreme visual scenarios not typically considered by academia nor encountered by cars, ground robots, or AR applications. They are commonly flown in scenes with few or no semantic priors and must deftly navigate thin objects, extreme lighting, camera artifacts, motion blur, textureless surfaces, vibrations, dirt, camera smudges, and fog. These challenges are daunting for classical vision - because photometric signals are simply not consistent and for learning-based methods - because there is no ground truth for direct supervision of deep networks. In this talk we'll take a detailed look at these issues and the algorithms we've developed to tackle them. We will also cover the new capabilities on top of our core navigation engine to autonomously map complex scenes and capture all surfaces, by performing real-time 3D reconstruction across multiple flights.</abstract>
         <bio>Adam is co-founder and CEO at Skydio. He has two decades of experience with small UAS, starting as a national champion R/C airplane aerobatics pilot. As a grad student at MIT, he did award winning research that pioneered autonomous flight for drones, transferring much of what he learned as an R/C pilot into software that enables drones to fly themselves. Adam co-founded Google’s drone delivery project. He currently serves on the FAA’s Drone Advisory Committee. He holds a BS in Mechanical Engineering from Olin College and an SM in Aero/Astro from MIT. He has co-authored numerous technical papers and patents, and was also recognized on MIT’s TR35 list for young innovators.</bio>
         <bio2>Hayk was the first engineering hire at Skydio and he leads the autonomy team. He is an experienced roboticist who develops robust approaches to computer vision, deep learning, nonlinear optimization, and motion planning to bring intelligent robots into the mainstream. His team’s state of the art work in UAV visual localization, obstacle avoidance, and navigation of complex scenarios is at the core of every Skydio drone. He also has an interest in systems architecture and symbolic computation. His previous works include novel hexapedal robots, collaboration between robot arms, micro-robot factories, solar panel farms, and self-balancing motorcycles. Hayk is a graduate of Stanford University and Princeton University.</bio2>
         <graphic>skydio.jpg</graphic>
-        <url>https://www.linkedin.com/in/adam-bry-a5788582/</url>
-        <url2>https://haykmartiros.com/about</url2>
-        <guest>Davide Scaramuzza</guest>
-        <guesturl>http://rpg.ifi.uzh.ch/people_scaramuzza.html</guesturl>
-        <guest2>Margaritha Chli</guest2>
-        <guesturl2>http://margaritachli.com/</guesturl2>
+        <guest>
+            <gname>Davide Scaramuzza</gname>
+            <gurl>http://rpg.ifi.uzh.ch/people_scaramuzza.html</gurl>
+        </guest>
+        <guest>
+            <gname>Margaritha Chli</gname>
+            <gurl>http://margaritachli.com/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Chad Jenkins</speaker>
         <affliation>University of Michigan</affliation>
+        <url>https://ocj.name/</url>
         <date>12 March 2021</date>
         <title>That Ain’t Right: AI Mistakes and Black Lives</title>
         <abstract>It would be great to talk about the many compelling ideas, innovations, and new questions emerging in robotics research. I am fascinated by the ongoing NeRF Explosion, prospects for declarative robot programming by demonstration, and potential for a reemergence of probabilistic generative inference. However, there is a larger issue facing our intellectual enterprise: who will pay the cost for the likely mistakes and potential misuse of AI systems? My nation is poised to invest billions of dollars to remain the leader in artificial intelligence as well as quantum computing. This investment is critically needed to reinvigorate the science that will shape our future. In order to get the most from this investment, we have to create an environment that will produce innovations that are not just technical advancements but will also benefit and uplift everybody in our society. We are increasingly seeing how AI is having a pervasing impact on our lives, both for good and for bad. So, how do we ensure equal opportunity in science and technology? It starts with how we invest in scientific research. Currently, when we make investments, we only think about technological advancement. Equal opportunity is a non-priority and, at best, a secondary consideration. The fix is simple really — and something we can do almost immediately: we must start enforcing existing civil rights statutes for how government funds are distributed in support of scientific advancement. This will mostly affect universities, as the springwell that generates the intellectual foundation and workforce for other organizations that are leading the way in artificial intelligence.This talk will explore the causes of systemic inequality in AI, the impact of this inequity within the field of AI and across society today, and offer thoughts for the next wave of AI inference systems for robotics that could provide introspectability and accountability. Ideas explored build upon the BlackInComputing.org open letter and “Before we put $100 billion into AI…" opinion. Equal opportunity for anyone requires equal opportunity for everyone.</abstract>
         <bio>Odest Chadwicke Jenkins, Ph.D., is a Professor of Computer Science and Engineering and Associate Director of the Robotics Institute at the University of Michigan. Prof. Jenkins earned his B.S. in Computer Science and Mathematics at Alma College (1996), M.S. in Computer Science at Georgia Tech (1998), and Ph.D. in Computer Science at the University of Southern California (2003). He previously served on the faculty of Brown University in Computer Science (2004-15). His research addresses problems in interactive robotics and human-robot interaction, primarily focused on mobile manipulation, robot perception, and robot learning from demonstration. Prof. Jenkins has been recognized as a Sloan Research Fellow and is a recipient of the Presidential Early Career Award for Scientists and Engineers (PECASE). His work has also been supported by Young Investigator awards from the Office of Naval Research (ONR), the Air Force Office of Scientific Research (AFOSR) and the National Science Foundation (NSF). Prof. Jenkins is currently serving as Editor-in-Chief for the ACM Transactions on Human-Robot Interaction. He is a Fellow of the American Association for the Advancement of Science and Association for the Advancement of Artificial Intelligence, and Senior Member of the Association for Computing Machinery and the Institute of Electrical and Electronics Engineers. He is an alumnus of the Defense Science Study Group (2018-19).</bio>
         <graphic>chad_jenkins.jpg</graphic>
-        <url>https://ocj.name/</url>
+        <guest>
+            <gname>Sarah Brown</gname>
+            <gurl>https://web.uri.edu/provost/meet/sarah-m-brown/</gurl>
+        </guest>
+        <guest>
+            <gname>Hadas Kress-Gazit</gname>
+            <gurl>https://research.cornell.edu/researchers/hadas-kress-gazit</gurl>
+        </guest>
+        <guest>
+            <gname>Aisha Walcott</gname>
+            <gurl>https://researcher.watson.ibm.com/researcher/view.php?person=ke-AWALCOTT</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Raia Hadsell</speaker>
         <affliation>DeepMind</affliation>
+        <url>http://raiahadsell.com/index.html</url>
         <date>26 March 2021</date>
         <bio>Raia Hadsell is the Director of Robotics at DeepMind. Dr. Hadsell joined DeepMind in 2014 to pursue new solutions for artificial general intelligence. Her research focuses on the challenge of continual learning for AI agents and robots, and she has proposed neural approaches such as policy distillation, progressive nets, and elastic weight consolidation to solve the problem of catastrophic forgetting. Dr. Hadsell is on the executive boards of ICLR (International Conference on Learning Representations), WiML (Women in Machine Learning), and CoRL (Conference on Robot Learning). She is a fellow of the European Lab on Learning Systems (ELLIS), a founding organizer of NAISys (Neuroscience for AI Systems), and serves as a CIFAR advisor.</bio>
         <graphic>raia_hadsell.jpg</graphic>
-        <url>http://raiahadsell.com/index.html</url>
     </talk>
     <talk>
         <speaker>Amanda Prorok</speaker>
         <affliation>Cambridge University</affliation>
+        <url>https://www.proroklab.org/</url>
         <date>9 April 2021</date>
         <graphic>amanda_prorok.jpg</graphic>
-        <url>https://www.proroklab.org/</url>
+
     </talk>
     <talk>
         <speaker>Koushil Sreenath</speaker>
         <affliation>UC Berkeley</affliation>
+        <url>https://me.berkeley.edu/people/koushil-sreenath/</url>
         <date>23 April 2021</date>
         <graphic>koushil_sreenath.jpg</graphic>
-        <url>https://me.berkeley.edu/people/koushil-sreenath/</url>
+
     </talk>
-    <!--<talk>
-        <speaker>TBD</speaker>
-        <affliation>TBD</affliation>
-        <date>7 May 2021</date>
-        <graphic>tbd.jpg</graphic>
-        <url>#</url>
-    </talk>-->
     <talk>
         <speaker>Antonio Bicchi</speaker>
         <affliation>Istituto Italiano di Tecnologia</affliation>
+        <url>https://www.iit.it/people/antonio-bicchi</url>
         <date>21 May 2021</date>
         <graphic>antonio_bicchi.jpg</graphic>
-        <url>https://www.iit.it/people/antonio-bicchi</url>
     </talk>
 </events>

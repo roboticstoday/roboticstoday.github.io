@@ -87,7 +87,7 @@ function seminarLoad(timeStatus) {
             // Second speaker bio
             if ( x[i].getElementsByTagName("bio2").length > 0 ) {
                 var bio2 = x[i].getElementsByTagName("bio2")[0].childNodes[0].nodeValue;
-                txt += '<br/><br/><b>Biography:</b> ' + bio2;
+                txt += '<br/><br/><b>Biography:</b> ' + bio2 + '<br/>';
             }
 
 
@@ -95,15 +95,18 @@ function seminarLoad(timeStatus) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
 
-            if ( (x[i].getElementsByTagName("guest").length > 0) && (x[i].getElementsByTagName("guesturl").length > 0)) {
-                var guest = x[i].getElementsByTagName("guest")[0].childNodes[0].nodeValue;
-                var guesturl = x[i].getElementsByTagName("guesturl")[0].childNodes[0].nodeValue;
-                txt += "<br/><b>Featuring Guest Panelist:</b> <a href='" + guesturl + "' target=_'blank'>"; 
-                txt += guest + "</a>"; 
-                if ( (x[i].getElementsByTagName("guest2").length > 0) && (x[i].getElementsByTagName("guesturl2").length > 0)) {
-                    var guest2 = x[i].getElementsByTagName("guest2")[0].childNodes[0].nodeValue;
-                    var guesturl2 = x[i].getElementsByTagName("guesturl2")[0].childNodes[0].nodeValue;
-                    txt += " and <a href='" + guesturl2 + "' target=_'blank'>" + guest2 + "</a>"; }
+            // Loop through guest panelists
+            if ( x[i].getElementsByTagName("guest").length > 0 ) {
+                txt += "<br/><b>Featuring Guest Panelist(s):</b>";
+                var j;
+                var y = x[i].getElementsByTagName("guest");
+                for (j = 0; j < y.length; j++) {
+                    var guest = y[j].getElementsByTagName("gname")[0].childNodes[0].nodeValue;
+                    var gurl = y[j].getElementsByTagName("gurl")[0].childNodes[0].nodeValue;
+                    txt += "<a href='" + gurl + "' target=_'blank'> " + guest + "</a>"; 
+                    // Add comma if needed
+                    if ((y.length > 1) && (j < (y.length-1))) { txt += ','; }
+                }  
             }
 
             if ( x[i].getElementsByTagName("qa").length > 0) {
@@ -154,6 +157,20 @@ function seminarLoad(timeStatus) {
             if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
                 txt += '<br/>' + note; }
+
+            // Loop through guest panelists
+            if ( x[i].getElementsByTagName("guest").length > 0 ) {
+                txt += "<br/><br/><b>Featuring Guest Panelist(s):</b>";
+                var j;
+                var y = x[i].getElementsByTagName("guest");
+                for (j = 0; j < y.length; j++) {
+                    var guest = y[j].getElementsByTagName("gname")[0].childNodes[0].nodeValue;
+                    var gurl = y[j].getElementsByTagName("gurl")[0].childNodes[0].nodeValue;
+                    txt += "<a href='" + gurl + "' target=_'blank'> " + guest + "</a>"; 
+                    // Add comma if needed
+                    if ((y.length > 1) && (j < (y.length-1))) { txt += ','; }
+                }  
+            }
 
             txt += '</p></div>';
             current_txt += txt;
