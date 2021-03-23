@@ -137,6 +137,10 @@ function seminarLoad(timeStatus) {
                 txt += ' and <a href="' + url2 + '" target="_blank">' + speaker2 + ' </a>(' + affliation2 + ')';
             }
             txt += '</h3><br/>';
+
+             if ( x[i].getElementsByTagName("note").length > 0 ) {
+                note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
+                txt += '<br/><font color="red">' + note + '</font><br/><br/>'; }
             
 
             if ( x[i].getElementsByTagName("abstract").length > 0 ) {
@@ -153,10 +157,6 @@ function seminarLoad(timeStatus) {
                 var bio2 = x[i].getElementsByTagName("bio2")[0].childNodes[0].nodeValue;
                 txt += '<br/><br/><b>Biography:</b> ' + bio2;
             }
-
-            if ( x[i].getElementsByTagName("note").length > 0 ) {
-                note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
-                txt += '<br/>' + note; }
 
             // Loop through guest panelists
             if ( x[i].getElementsByTagName("guest").length > 0 ) {
