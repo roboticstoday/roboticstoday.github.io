@@ -226,6 +226,8 @@
         <affliation>DeepMind</affliation>
         <url>http://raiahadsell.com/index.html</url>
         <date>26 March 2021</date>
+        <title>Scalable Robot Learning in Rich Environments</title>
+        <abstract>As modern machine learning methods push towards breakthroughs in controlling physical systems, games and simple physical simulations are often used as the main benchmark domains. As the field matures, it is important to develop more sophisticated learning systems with the aim of solving more complex real-world tasks, but problems like catastrophic forgetting and data efficiency remain critical, particularly for robotic domains. This talk will cover some of the challenges that exist for learning from interactions in more complex, constrained, and real-world settings, and some promising new approaches that have emerged.</abstract>
         <bio>Raia Hadsell is the Director of Robotics at DeepMind. Dr. Hadsell joined DeepMind in 2014 to pursue new solutions for artificial general intelligence. Her research focuses on the challenge of continual learning for AI agents and robots, and she has proposed neural approaches such as policy distillation, progressive nets, and elastic weight consolidation to solve the problem of catastrophic forgetting. Dr. Hadsell is on the executive boards of ICLR (International Conference on Learning Representations), WiML (Women in Machine Learning), and CoRL (Conference on Robot Learning). She is a fellow of the European Lab on Learning Systems (ELLIS), a founding organizer of NAISys (Neuroscience for AI Systems), and serves as a CIFAR advisor.</bio>
         <graphic>raia_hadsell.jpg</graphic>
     </talk>
