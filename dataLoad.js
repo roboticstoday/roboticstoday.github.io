@@ -91,9 +91,9 @@ function seminarLoad(timeStatus) {
             }
 
 
-            if ( x[i].getElementsByTagName("note").length > 0 ) {
+            /*if ( x[i].getElementsByTagName("note").length > 0 ) {
                 note = x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue;
-                txt += '<br/>' + note; }
+                txt += '<br/>' + note; } */
 
             // Loop through guest panelists
             if ( x[i].getElementsByTagName("guest").length > 0 ) {

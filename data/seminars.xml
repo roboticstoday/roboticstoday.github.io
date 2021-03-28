@@ -231,6 +231,14 @@
         <bio>Raia Hadsell is the Director of Robotics at DeepMind. Dr. Hadsell joined DeepMind in 2014 to pursue new solutions for artificial general intelligence. Her research focuses on the challenge of continual learning for AI agents and robots, and she has proposed neural approaches such as policy distillation, progressive nets, and elastic weight consolidation to solve the problem of catastrophic forgetting. Dr. Hadsell is on the executive boards of ICLR (International Conference on Learning Representations), WiML (Women in Machine Learning), and CoRL (Conference on Robot Learning). She is a fellow of the European Lab on Learning Systems (ELLIS), a founding organizer of NAISys (Neuroscience for AI Systems), and serves as a CIFAR advisor.</bio>
         <graphic>raia_hadsell.jpg</graphic>
         <note>*Time Change: This talk will be 1PM EDT (10AM PDT) *</note>
+        <guest>
+            <gname>Chelsea Finn</gname>
+            <gurl>https://ai.stanford.edu/~cbfinn/</gurl>
+        </guest>
+        <guest>
+            <gname>Pulkit Agrawal</gname>
+            <gurl>https://people.csail.mit.edu/pulkitag/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Amanda Prorok</speaker>
