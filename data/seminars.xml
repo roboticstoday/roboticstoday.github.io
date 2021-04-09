@@ -250,7 +250,14 @@
         <bio>Amanda Prorok is an Assistant Professor in the Department of Computer Science and Technology, at Cambridge University, UK, and a Fellow of Pembroke College. Her mission is to find new ways of coordinating artificially intelligent agents (e.g., robots, vehicles, machines) to achieve common goals in shared physical and virtual spaces. Amanda Prorok has been honored by an ERC Starting Grant, an Amazon Research Award, an EPSRC New Investigator Award, an Isaac Newton Trust Early Career Award, and the Asea Brown Boveri (ABB) Award for the best thesis at EPFL in Computer Science. Further awards include Best Paper at DARS 2018, Finalist for Best Multi-Robot Systems Paper at ICRA 2017, Best Paper at BICT 2015, and MIT Rising Stars 2015. She serves as Associate Editor for IEEE Robotics and Automation Letters (R-AL), and Associate Editor for Autonomous Robots (AURO). Prior to joining Cambridge, Amanda Prorok was a postdoctoral researcher at the General Robotics, Automation, Sensing and Perception (GRASP) Laboratory at the University of Pennsylvania, USA. She completed her PhD at EPFL, Switzerland.</bio>
         <graphic>amanda_prorok.jpg</graphic>
         <note>*Time Change: This talk will be 2PM EDT (11AM PDT) *</note>
-
+        <guest>
+            <gname>Stephanie Gil</gname>
+            <gurl>https://gil.seas.harvard.edu/</gurl>
+        </guest>
+        <guest>
+            <gname>Joey Durham</gname>
+            <gurl>https://www.linkedin.com/in/jwdurham/</gurl>
+        </guest>
     </talk>
     <talk>
         <speaker>Koushil Sreenath</speaker>
